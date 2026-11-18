@@ -53,23 +53,17 @@ Figma'da kapalı görünen soruların cevapları uygulama için yazılmış tasl
 
 Üretimde `dist/` klasörünü statik sunucuya yükleyin; `/hizmetler` için dizin index dosyalarının sunulması gerekir. Yapılandırmayı ekledikten sonra önceden çalışan Vite sunucusu yeniden başlatılmalıdır.
 
-Teklif CTA'ları `/iletisim` sayfasına gider. Hizmete veya pakete özel seçimler query parametreleriyle forma aktarılır. Paket kapsamları ihtiyaçlara göre özelleştirilecek başlangıç önerileri olarak sunulur; fiyat eklenmemiştir.
+Teklif CTA'ları `/iletisim#iletisim-bilgileri` bölümündeki doğrudan iletişim bağlantılarına gider. Paket kapsamları ihtiyaçlara göre özelleştirilecek başlangıç önerileri olarak sunulur; fiyat eklenmemiştir.
 
 
 ## İletişim sayfası
 
 - `/iletisim`, `/iletisim/` ve `/iletisim/index.html` aynı sayfayı açar.
-- `iletisim/index.html`, `src/contact.css`: proje formu, doğrudan e-posta bağlantısı ve mevcut tasarım dilindeki iletişim sayfası.
-- `src/header.css`: tüm sayfalardaki beyaz sticky header ve responsive ana menü.
-- `src/inner-pages.css`: iç sayfaların ortak buton, breadcrumb ve renk stilleri.
-- `src/contact-config.js`: iletişim adresi (`info@arnevo.co`) ve sayfa rotası.
-- `src/render-contact.js`: hizmet/paket seçeneklerini mevcut veri kaynağından HTML'e ekler.
-- `src/contact.js`: form doğrulama, seçim aktarımı, karakter sayacı ve adres kopyalama.
-- `src/contact-message.js`: form bilgilerinden Türkçe karakterleri ve satır sonlarını koruyan e-posta taslağını oluşturur.
-
-Form, kullanıcının kendi e-posta uygulamasında `info@arnevo.co` alıcılı bir taslak açar. Ziyaretçi mesajını e-posta uygulamasında kontrol edip gönderir. Form değerleri taslak açıldıktan sonra silinmez. Gönderildi veya teslim edildi onayı gösterilmez. JavaScript kapalıyken doğrudan e-posta bağlantısı ve yerel mailto form eylemi kullanılabilir.
-
-SMTP veya bir form servisi bağlı değildir; otomatik sunucu gönderimi, veritabanına kayıt veya üçüncü tarafa form verisi aktarımı yapılmaz. İleride sunucudan gönderim istenirse bir e-posta servisi ve sunucu tarafı entegrasyon gerekir. Hiçbir form bilgisi localStorage'a yazılmaz.
+- `iletisim/index.html`, `src/contact.css`: e-posta, telefon ve WhatsApp kartları; mobilde alt alta yerleşen doğrudan iletişim bölümü.
+- `src/contact-config.js`: `info@arnevo.co`, `535 730 12 85` ve `533 926 40 92` iletişim bilgileri ile iletişim bölümü adresi.
+- `src/render-contact.js`: e-posta için `mailto:`, ilk telefon için `tel:+905357301285`, ikinci numara için `https://wa.me/905339264092` bağlantılarını HTML'e ekler. İkinci numarada ayrıca `tel:+905339264092` arama bağlantısı bulunur.
+- Form ve ona bağlı JavaScript kaldırılmıştır. İletişim bağlantıları JavaScript olmadan da kullanılabilir. Sayfa hiçbir mesajı kendiliğinden göndermez.
+- Hizmet ve paket teklif bağlantıları doğrudan iletişim bilgileri bölümüne gider. Önceki `?hizmet=` veya `?paket=` adresleri de aynı iletişim sayfasını açar.
 
 ## Blog
 
@@ -104,14 +98,14 @@ Deneyim ve marka sayısı bilgileri işletme sahibinin sağladığı içeriktir.
 ## Genişletilmiş hizmet kataloğu ve açılır menü
 
 - Sekiz kategori altında 59 ayrı hizmet: `src/service-catalog/groups/*.json`.
-- İlk hizmet grubunun adı “Tasarım ve Markalaşma”dır. Sekiz kategori ve hizmet adları Türkçe olarak sunulur; Google Ads, Shopify, TikTok, LinkedIn, SEO ve LLM gibi marka adları ve teknik kısaltmalar korunur. Mevcut sayfa adresleri, kategori kimlikleri ve form değerleri aynı kaldığından eski bağlantılar çalışmaya devam eder. Menü, footer, detay sayfaları, metaveri ve iletişim seçenekleri aynı katalogdan üretilir.
+- İlk hizmet grubunun adı “Tasarım ve Markalaşma”dır. Sekiz kategori ve hizmet adları Türkçe olarak sunulur; Google Ads, Shopify, TikTok, LinkedIn, SEO ve LLM gibi marka adları ve teknik kısaltmalar korunur. Mevcut sayfa adresleri ve kategori kimlikleri aynı kaldığından eski bağlantılar çalışmaya devam eder. Menü, footer, detay sayfaları ve metaveri aynı katalogdan üretilir.
 - `src/service-catalog/data.js`: katalog doğrulaması ve eski bağlantı eşlemeleri.
-- `src/service-catalog/render.js`: mega menü, katalog bölümleri, iletişim formu seçenekleri ve ortak detay şablonu.
+- `src/service-catalog/render.js`: mega menü, katalog bölümleri ve ortak detay şablonu.
 - `/hizmetler/{slug}` rotasındaki sayfalar Vite başlarken veya derlemede `hizmetler/{slug}/index.html` olarak üretilir. İçerikleri değiştirmek için üretilen HTML yerine kategori JSON dosyalarını düzenleyin.
-- Her detay sayfasında açıklama, ihtiyaç/yaklaşım metni, beş kapsam maddesi, üç örnek teslim, kategoriye göre dört aşamalı süreç, hizmete özel SSS, ilgili hizmetler ve seçimi iletişim formuna taşıyan CTA bulunur.
+- Her detay sayfasında açıklama, ihtiyaç/yaklaşım metni, beş kapsam maddesi, üç örnek teslim, kategoriye göre dört aşamalı süreç, hizmete özel SSS, ilgili hizmetler ve doğrudan iletişim bilgilerine götüren CTA bulunur.
 - `src/services-menu.css` ve `src/main.js`: masaüstünde kaydırılabilir mega menü, mobilde kategori disclosure listeleri; Enter/Space, Escape, dışarı tıklama ve odak geri dönüşü. Menü yalnızca hover'a bağlı değildir. Native details/summary sayesinde masaüstündeki hizmet açılır menüsü JavaScript kapalıyken de açılır; mevcut mobil ana menü JavaScript kullanır.
 - `src/service-detail.css`: tüm hizmet sayfalarının ortak responsive şablonu. Mevcut tasarım sistemi ve yerel görseller kullanılır; yeni bağımlılık eklenmemiştir.
-- İletişim formundaki “İlgilendiğiniz hizmet” alanında 59 hizmet kategori bazlı seçilebilir. Mevcut yedi genel ilgi alanı ve paket seçimi korunur; yeni hizmet seçimi e-posta taslağına eklenir.
+- Hizmet ve paket teklif bağlantıları e-posta, telefon ve WhatsApp bağlantılarının yer aldığı iletişim bölümüne gider.
 - Blog ve Hakkımızda sayfalarındaki eski `#marka-kimligi`, `#web-tasarim`, `#sosyal-medya` gibi bağlantılar katalogdaki ilgili kayıtlara gider.
 
 Kapsamlar başlangıç çerçevesidir. Kesin teslim, süre, lisans/platform giderleri ve medya bütçeleri teklif aşamasında belirlenir. İçeriklere doğrulanmamış sertifika, iş ortaklığı, müşteri adı veya performans garantisi eklenmemiştir.

@@ -1,5 +1,5 @@
 // Content is rendered into HTML at build time, so it remains available without JavaScript.
-export { contactPage as contactHref } from './contact-config.js';
+export { contactDetailsHref as contactHref } from './contact-config.js';
 
 export const services = [
   {

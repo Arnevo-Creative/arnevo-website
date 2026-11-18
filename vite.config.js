@@ -89,6 +89,25 @@ export default defineConfig({
         server.ws.send({ type: 'full-reload' });
       }
     },
+  }, {
+    name: 'arnevo-google-tag-manager',
+    transformIndexHtml: {
+      order: 'post',
+      handler: () => [
+        {
+          tag: 'script',
+          attrs: { async: true, src: 'https://www.googletagmanager.com/gtm.js?id=GTM-TZ2W9R3Z' },
+          injectTo: 'head-prepend',
+        },
+        {
+          tag: 'script',
+          children: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());`,
+          injectTo: 'head-prepend',
+        },
+      ],
+    },
   }],
   build: {
     rollupOptions: {

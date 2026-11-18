@@ -1,9 +1,9 @@
 {
   "stats": {
-    "originalRasterBytes": 62948985,
-    "publishedImageBytes": 6791698,
-    "webpBytes": 6104826,
-    "sourceImages": 49,
+    "originalRasterBytes": 64263702,
+    "publishedImageBytes": 6965479,
+    "webpBytes": 6211282,
+    "sourceImages": 50,
     "archivedUnused": 4
   },
   "unused": [
@@ -1323,6 +1323,33 @@
       "width": 640,
       "height": 800,
       "srcset": "/assets/sufle/startup-benefits-320.webp 320w, /assets/sufle/startup-benefits.webp 640w"
+    },
+    "/assets/references/54984.png": {
+      "originalBytes": 1314717,
+      "sourceSha": "41fd6c52f37cde96024c0a76dd523ea85bdfa5977617c84481b3da21b9a649be",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "alpha": true,
+      "candidates": [
+        {
+          "src": "/assets/references/54984-160.webp",
+          "width": 160,
+          "height": 107,
+          "bytes": 29452
+        },
+        {
+          "src": "/assets/references/54984.webp",
+          "width": 320,
+          "height": 213,
+          "bytes": 77004
+        }
+      ],
+      "src": "/assets/references/54984.webp",
+      "width": 320,
+      "height": 213,
+      "srcset": "/assets/references/54984-160.webp 160w, /assets/references/54984.webp 320w"
     }
   }
 }

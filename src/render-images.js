@@ -12,9 +12,10 @@ const setAttribute = (tag, name, value) => {
 function displaySizes(source, tag) {
   if (attribute(tag, 'sizes')) return attribute(tag, 'sizes');
   const width = Number(attribute(tag, 'width'));
+  if (source.startsWith('/assets/references/')) return '(max-width: 760px) 79px, 121px';
   if (source.includes('/sufle/')) return '(max-width: 760px) calc(33.7288vw - 13.4915px), (max-width: 1280px) calc(16.8644vw - 16.8644px), 199px';
-  if (source.endsWith('/eb0e7.png')) return '121.25vw';
-  if (source.endsWith('/cb432.png')) return '(max-width: 760px) 170px, (max-width: 1200px) 275px, 340px';
+  if (source.endsWith('/eb0e7.png')) return '(max-width: 403px) calc(100vw - 28px), (max-width: 1440px) 93.056vw, 1340px';
+  if (source.endsWith('/cb432.png')) return '(max-width: 760px) 203px, (max-width: 1100px) 244px, 340px';
   if (source.endsWith('/09788.png')) return '(max-width: 760px) calc(128.33vw - 51.33px), 760px';
   if (source.endsWith('/61966.png')) return '(max-width: 760px) calc(87vw - 34.8px), 500px';
   if (source.endsWith('/ac4f7.png')) {

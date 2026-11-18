@@ -40,3 +40,21 @@ const cover = document.querySelector('.maarif');
 if (cover) new ResizeObserver(([entry]) => {
   cover.style.setProperty('--cover-scale', entry.contentRect.width / 590);
 }).observe(cover);
+
+const references = document.querySelector('.references');
+if (references) {
+  const logos = references.querySelector('.reference-logos');
+  const repeatedLogos = logos.cloneNode(true);
+  repeatedLogos.setAttribute('aria-hidden', 'true');
+  repeatedLogos.classList.add('reference-logos-copy');
+  logos.after(repeatedLogos);
+
+  const pause = references.querySelector('.references-toggle');
+  pause.hidden = false;
+  pause.addEventListener('click', () => {
+    const paused = pause.getAttribute('aria-pressed') === 'true';
+    pause.setAttribute('aria-pressed', String(!paused));
+    references.classList.toggle('references-paused', !paused);
+  });
+  references.classList.add('references-animated');
+}

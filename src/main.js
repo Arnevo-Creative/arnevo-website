@@ -66,3 +66,38 @@ if (references) {
   });
   references.classList.add('references-animated');
 }
+
+const scrollDrivenReveal = CSS.supports('animation-timeline', 'view(block 0px 10%)')
+  && CSS.supports('animation-range', 'entry 0% entry 95%');
+
+if (scrollDrivenReveal || 'IntersectionObserver' in window) {
+  const reveals = document.querySelectorAll([
+    'main > section > .container > :not(.projects, .blog-grid)',
+    'main > section.container > *',
+    'main > .references .references-window',
+    'main > .contact > *',
+    '.projects > .project',
+    '.blog-grid > .blog-card',
+    '.catalog-group',
+    '.article-body > section',
+    '.footer-layout > *',
+    '.footer-journal',
+    '.footer-bottom'
+  ].join(', '));
+
+  const observer = scrollDrivenReveal ? null : new IntersectionObserver(entries => {
+    for (const entry of entries) {
+      if (!entry.isIntersecting) continue;
+      entry.target.classList.add('scroll-revealed');
+      observer.unobserve(entry.target);
+    }
+  });
+
+  const viewportHeight = document.documentElement.clientHeight;
+  for (const element of reveals) {
+    const bounds = element.getBoundingClientRect();
+    if (bounds.top < viewportHeight && bounds.bottom > 0 && !element.hidden) continue;
+    if (observer) observer.observe(element);
+    else element.classList.add('scroll-reveal-target');
+  }
+}

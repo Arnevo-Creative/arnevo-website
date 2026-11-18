@@ -1,8 +1,14 @@
 node_modules/
-build/
 dist/
-coverage/
 .DS_Store
-*.log
-.env*
+
+# Local environment and hosting state
+.env
+.env.*
 !.env.example
+.vercel/
+.netlify/
+*.log
+
+# Original generated covers stay local; web versions are in public/assets/blog/.
+artifacts/blog-images/*.png

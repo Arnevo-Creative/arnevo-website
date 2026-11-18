@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#001f21">
+  <title>Arnevo İletişim | Projenizi Birlikte Konuşalım</title>
+  <meta name="description" content="Markalaşma, web tasarım veya dijital pazarlama projeniz için Arnevo ile iletişime geçin. İhtiyaçlarınızı paylaşın, doğru çözümü birlikte belirleyelim.">
+  <link rel="stylesheet" href="/src/style.css">
+  <link rel="stylesheet" href="/src/inner-pages.css">
+  <link rel="stylesheet" href="/src/contact.css">
+</head>
+<body class="inner-page contact-page">
+  <a class="skip-link" href="#main">İçeriğe geç</a>
+  <!-- arnevo:header -->
+  <main id="main">
+    <section class="contact-hero" aria-labelledby="contact-title"><div class="container">
+      <nav class="breadcrumbs" aria-label="İçerik yolu"><a href="/">Ana Sayfa</a><span aria-hidden="true">/</span><span aria-current="page">İletişim</span></nav>
+      <div class="contact-hero-grid"><div><p class="overline">Her şey bir konuşmayla başlar.</p><h1 id="contact-title">Sizin fikriniz.<br><span>Birlikte,</span><br>bir adım ileri.</h1><p class="contact-lead">Yeni bir marka, daha iyi bir dijital deneyim ya da büyümek için yeni bir yön. Aklınızdakini paylaşın, doğru başlangıcı birlikte bulalım.</p></div><div class="contact-hero-art" aria-hidden="true"><img src="/assets/ac4f7.png" alt="" width="400" height="400" fetchpriority="high"><span>Fikirden etkiye.</span></div></div>
+      <div class="contact-hero-bottom"><span>Bir fikriniz olması yeterli.</span><a href="#proje-formu">Projenizi anlatın <span aria-hidden="true">↘</span></a></div>
+    </div></section>
+    <section class="contact-project" id="proje-formu" aria-labelledby="form-title"><div class="container contact-project-grid">
+      <aside class="contact-intro"><p class="overline">01 / Birlikte başlayalım</p><h2 id="form-title">Aklınızda<br> ne var?</h2><p>İşinizi, hedeflerinizi ve ihtiyaçlarınızı kısaca anlatın. Tüm detayların hazır olması gerekmiyor; henüz netleşmeyenleri birlikte düşünebiliriz.</p>
+      <div class="direct-contact"><span class="overline">Doğrudan yazmak isterseniz</span><!-- arnevo:contact-email --><button class="copy-email" type="button">E-posta adresini kopyala <span aria-hidden="true">↗</span></button><p id="copy-status" role="status" aria-live="polite"></p></div>
+      <div class="contact-next"><span class="overline">Sonrasında ne olacak?</span><ol><li><span>01</span>İhtiyacınızı ve hedeflerinizi anlayalım.</li><li><span>02</span>Uygun çözümü ve kapsamı netleştirelim.</li><li><span>03</span>Size özel bir çalışma planı oluşturalım.</li></ol></div></aside>
+      <form class="project-form" id="project-form" aria-describedby="form-help" action="mailto:info@arnevo.co" method="post" enctype="text/plain">
+        <div class="form-heading"><span class="overline">Proje notunuz</span><p>Yıldız (*) işaretli alanlar zorunludur.</p></div>
+        <div class="field-grid"><div class="form-field"><label for="full-name">Adınız ve soyadınız <span aria-hidden="true">*</span></label><input type="text" id="full-name" name="ad" autocomplete="name" required minlength="2" maxlength="100"></div><div class="form-field"><label for="email">E-posta adresiniz <span aria-hidden="true">*</span></label><input type="email" id="email" name="eposta" autocomplete="email" required maxlength="254" inputmode="email"></div></div>
+        <div class="field-grid"><div class="form-field"><label for="company">Şirket / marka adı <small>İsteğe bağlı</small></label><input type="text" id="company" name="sirket" autocomplete="organization" maxlength="120"></div><div class="form-field"><label for="website">Web siteniz <small>İsteğe bağlı</small></label><input type="url" id="website" name="web" placeholder="https://" autocomplete="url" maxlength="300" inputmode="url"></div></div>
+        <fieldset class="interest-field"><legend>Hangi konularda birlikte çalışalım?</legend><p class="field-hint">Birden fazla seçim yapabilirsiniz. Henüz emin değilseniz boş bırakabilirsiniz.</p><div class="interest-choices"><!-- arnevo:contact-services --></div></fieldset>
+        <div class="form-field"><label for="specific-service">İlgilendiğiniz hizmet <small>İsteğe bağlı</small></label><select id="specific-service" name="detay_hizmet"><option value="">Birlikte belirleyelim</option><!-- arnevo:contact-service-options --></select></div>
+        <div class="field-grid"><div class="form-field"><label for="package">İlgilendiğiniz paket <small>İsteğe bağlı</small></label><select id="package" name="paket"><option value="">Henüz karar vermedim</option><!-- arnevo:contact-packages --></select></div><div class="form-field"><label for="timeline">Ne zaman başlamak istersiniz?</label><select id="timeline" name="zaman"><option value="Birlikte planlayalım">Birlikte planlayalım</option><option value="En kısa zamanda">En kısa zamanda</option><option value="1 ay içinde">1 ay içinde</option><option value="1–3 ay içinde">1–3 ay içinde</option><option value="Zamanlamam esnek">Zamanlamam esnek</option></select></div></div>
+        <div class="form-field"><label for="message">Projenizi kısaca anlatın <span aria-hidden="true">*</span></label><p class="field-hint" id="message-help">Ne yapmak istiyorsunuz? Hangi ihtiyacı çözmeyi hedefliyorsunuz?</p><textarea id="message" name="mesaj" rows="6" required minlength="20" maxlength="5000" aria-describedby="message-help message-count"></textarea><span class="message-count" id="message-count">0 / 5000</span></div>
+        <p class="form-help" id="form-help">Form, bilgilerinizle e-posta uygulamanızda bir taslak açar. Mesajınızı kontrol edip gönderme işlemini oradan tamamlayabilirsiniz.</p>
+        <button class="button button-dark compose-button" type="submit">E-posta Hazırla <span aria-hidden="true">↗</span></button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite" tabindex="-1"></p>
+        <noscript><p class="form-help">Formu kullanmak için JavaScript’i etkinleştirin veya doğrudan <a href="mailto:info@arnevo.co">info@arnevo.co</a> adresine yazın.</p></noscript>
+      </form>
+    </div></section>
+    <section class="contact-closing"><div class="container"><p class="overline">Henüz nereden başlayacağınızı bilmiyor musunuz?</p><h2>Doğru sorular,<br>iyi başlangıçlar.</h2><p>Markanızın şu an hangi aşamada olduğuna birlikte bakalım. İster tek bir tasarım ihtiyacı, ister daha kapsamlı bir dönüşüm olsun.</p><a class="button button-light-outline" href="/hizmetler">Hizmetlerimizi Keşfedin <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <!-- arnevo:footer -->
+  <script type="module" src="/src/main.js"></script>
+  <script type="module" src="/src/contact.js"></script>
+</body>
+</html>

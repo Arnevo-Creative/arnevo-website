@@ -1,0 +1,43 @@
+/* Shared primitives for Arnevo inner pages. */
+:root {
+  --surface-mint: #e2f1f1;
+  --surface-soft: #f7f7f7;
+  --studio-violet: #6b3fec;
+  --studio-green: #0aaf6a;
+  --text-secondary: #456366;
+  --line: #cfdddd;
+  --radius-panel: 24px;
+}
+.overline { font-size: 13px; font-weight: 600; letter-spacing: .06em; line-height: 1.6; }
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  min-height: 56px;
+  padding: 15px 22px;
+  border: 1px solid transparent;
+  border-radius: 100px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5;
+  transition: background .2s, color .2s, border-color .2s;
+}
+.button > span { font-size: 24px; line-height: 1; }
+.button-mint { background: var(--surface-mint); color: var(--ink); }
+.button-mint:hover { background: #fff; }
+.button-light-outline { border-color: #779496; color: #fff; }
+.button-light-outline:hover { background: #ffffff14; border-color: #fff; }
+.button-outline { border-color: #a2babb; color: var(--ink); }
+.button-outline:hover { background: var(--ink); border-color: var(--ink); color: #fff; }
+.button-dark { background: var(--ink); color: #fff; }
+.button-dark:hover { background: var(--muted); }
+.breadcrumbs { display: flex; gap: 14px; font-size: 12px; color: #a0babc; }
+.breadcrumbs a:hover { color: white; }
+
+@media (max-width: 760px) {
+  .overline { font-size: 11px; }
+  .breadcrumbs { font-size: 11px; gap: 10px; }
+  .button { font-size: 13px; padding: 13px 18px; min-height: 50px; gap: 18px; }
+}
+@media (prefers-reduced-motion: reduce) { .button { transition: none; } }

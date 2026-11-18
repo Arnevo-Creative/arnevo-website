@@ -1,0 +1,52 @@
+{
+  "slug": "gorsel-hiyerarsi",
+  "category": "grafik-tasarim",
+  "title": "Görsel Hiyerarşi Nedir? Tasarımda Mesajınızı Öne Çıkarmanın Yolları",
+  "summary": "Boyut, kontrast, boşluk ve hizalamayla tasarımın okuma sırasını kurun; önemli mesajın kalabalıkta kaybolmasını önleyin.",
+  "coverAlt": "Farklı boyutlardaki editoryal kartlar, petrol yeşili daire ve mor geometrik parçalarla görsel öncelik anlatımı.",
+  "intro": "Bir afişe, sosyal medya paylaşımına veya web sayfasına baktığınızda her öğeyi aynı anda okumazsınız. Önce bir başlık, sonra bir görsel, ardından açıklama dikkatinizi çeker. Görsel hiyerarşi, bu sırayı tasarımın amacıyla uyumlu hale getirmektir. Amaç yalnızca dikkat çekmek değil; ziyaretçinin neyi anlaması ve hangi adımı atması gerektiğini netleştirmektir.",
+  "sections": [
+    {
+      "title": "Önce tek bir öncelik belirleyin",
+      "paragraphs": [
+        "Tasarım programını açmadan önce mesajınızı tek cümleyle yazın. Bir etkinlik duyurusunda tarih mi, konuşmacı mı, kayıt çağrısı mı önce görülmeli? Bunların hepsini aynı büyüklükte sunarsanız okuyucunun karar vermesini beklersiniz. Öncelik sizin tarafınızdan belirlenmiş olmalı.",
+        "Örneğin yeni bir hizmeti tanıtan paylaşımda önce çözülen ihtiyaç, sonra hizmetin kısa açıklaması, en son iletişim çağrısı gelebilir. Logo görünür olabilir; fakat her durumda en büyük öğe olmak zorunda değildir. Bilginin ağırlığı, kurum içindeki önem sırasından değil okuyucunun ihtiyacından gelmelidir."
+      ]
+    },
+    {
+      "title": "Boyut ve kontrastı birlikte kullanın",
+      "paragraphs": [
+        "Başlıkla gövde metni arasında belirgin bir boyut farkı oluşturmak başlangıç için yeterlidir. Her satıra farklı bir font, renk veya efekt eklemek yerine az sayıda rol tanımlayın. Ana başlık, açıklama ve yardımcı bilgi birbirinden ayrışsın; aynı role sahip öğeler aynı davranışı sürdürsün.",
+        "Kontrast yalnızca renk farkı değildir. İnce bir çizginin yanında kalın bir blok, sakin bir alanın içinde tek bir yoğun görsel de öncelik oluşturur. Bununla birlikte okunabilirliği yalnızca sezgiye bırakmayın. Metin ve arka planın kontrastını kontrol edin; önemli ayrımları sadece renk değiştirerek anlatmayın."
+      ]
+    },
+    {
+      "title": "Boşluk ve hizalama okuma sırasını kurar",
+      "paragraphs": [
+        "Birbirine yakın öğeler genellikle birlikte algılanır. Bu yüzden başlığın altındaki açıklamaya ayırdığınız boşlukla, iki bağımsız bölümün arasındaki boşluk aynı olmamalıdır. Grupların sınırlarını yalnızca kutu veya çizgi ekleyerek değil, aralıkları düzenleyerek de gösterebilirsiniz.",
+        "Ortak bir sol hizası, birkaç tutarlı sütun ve tekrar eden aralıklar tasarımın izlenmesini kolaylaştırır. Boş alanı doldurulması gereken bir eksik olarak görmeyin. Başlığın etrafındaki sakin alan, bazen onu büyütmekten daha etkili bir vurgu sağlar. Özellikle küçük mobil ekranlarda bu kararlar önem kazanır."
+      ]
+    },
+    {
+      "title": "Tasarımdan uzaklaşıp mesajı test edin",
+      "paragraphs": [
+        "Çalışmayı küçültün ve kısa süre bakın. İlk gördüğünüz üç öğeyi sırayla not edin. Bu sıra, başta belirlediğiniz iletişim amacıyla örtüşüyor mu? Ardından gerçek telefon boyutunda inceleyin. Masaüstünde güzel duran küçük bir tarih veya iletişim satırı mobilde kaybolabilir.",
+        "Tasarımı projeye dahil olmayan birine gösterip ne anlatıldığını sorun. Sorunuzun içinde cevabı vermeyin. Başlık okunuyor ama sonraki adım anlaşılmıyorsa daha fazla süs eklemek yerine mesajın sırasını düzeltin. İyi hiyerarşi, okuyucunun tasarımın düzenini çözmek için fazladan çaba harcamamasını sağlar."
+      ],
+      "bullets": [
+        "Tek bir ana mesaj seçin.",
+        "Başlık, açıklama ve yardımcı bilgi için ayrı roller belirleyin.",
+        "İlişkili bilgileri yakın, bağımsız bölümleri daha uzak yerleştirin.",
+        "Gerçek ekran boyutunda okunabilirliği kontrol edin."
+      ]
+    }
+  ],
+  "takeaway": "Her öğeyi öne çıkarmaya çalışmak yerine, okuyucunun izlemesini istediğiniz tek bir rota tasarlayın.",
+  "sources": [
+    {
+      "label": "W3C WAI — Contrast (Minimum)",
+      "url": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum"
+    }
+  ],
+  "service": "grafik-tasarim"
+}

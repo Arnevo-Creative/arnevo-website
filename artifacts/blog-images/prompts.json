@@ -1,0 +1,91 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-11-15",
+  "basePrompt": "Use case: stylized-concept. Asset type: landscape editorial cover for Arnevo's Turkish design studio blog. Create a polished, art-directed 3D still life, tactile paper, brushed chrome and matte colored objects. Unified palette: deep petrol #001f21, pale mint #e2f1f1, restrained violet #6b3fec, warm white. Wide landscape 3:2 framing, sophisticated soft studio light, crisp details, clean spacious composition, generous clear margins for responsive cropping. No readable text, no logos, no watermarks, no fake client brand. This is a conceptual illustration, not an infographic.",
+  "images": [
+    {
+      "slug": "gorsel-hiyerarsi",
+      "path": "public/assets/blog/gorsel-hiyerarsi.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: landscape editorial cover for Arnevo's Turkish design studio blog. Create a polished, art-directed 3D still life, tactile paper, brushed chrome and matte colored objects. Unified palette: deep petrol #001f21, pale mint #e2f1f1, restrained violet #6b3fec, warm white. Wide landscape 3:2 framing, sophisticated soft studio light, crisp details, clean spacious composition, generous clear margins for responsive cropping. No readable text, no logos, no watermarks, no fake client brand. This is a conceptual illustration, not an infographic. Subject: visual hierarchy in graphic design: three floating editorial paper layouts at different scales, a dominant large petrol circle, a medium violet rectangle and fine small mint grid modules, elegantly layered to show clear focal priority, on a pale mint studio surface.",
+      "original": "artifacts/blog-images/gorsel-hiyerarsi.png",
+      "thumbnail": "public/assets/blog/gorsel-hiyerarsi-720.jpg"
+    },
+    {
+      "slug": "marka-font-secimi",
+      "path": "public/assets/blog/marka-font-secimi.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: landscape editorial cover for Arnevo's Turkish design studio blog. Create a polished, art-directed 3D still life, tactile paper, brushed chrome and matte colored objects. Unified palette: deep petrol #001f21, pale mint #e2f1f1, restrained violet #6b3fec, warm white. Wide landscape 3:2 framing, sophisticated soft studio light, crisp details, clean spacious composition, generous clear margins for responsive cropping. No readable text, no logos, no watermarks, no fake client brand. This is a conceptual illustration, not an infographic. Subject: Typography as physical sculpture: oversized tactile sculptural letterforms 'Aa' in two contrasting typographic styles, one refined serif in brushed chrome and one geometric sans serif in deep petrol, small violet printing blocks, mint backdrop. Only these decorative letterforms, no other text.",
+      "original": "artifacts/blog-images/marka-font-secimi.png",
+      "thumbnail": "public/assets/blog/marka-font-secimi-720.jpg"
+    },
+    {
+      "slug": "dijitalden-baskiya",
+      "path": "public/assets/blog/dijitalden-baskiya.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: landscape editorial cover for Arnevo's Turkish design studio blog. Create a polished, art-directed 3D still life, tactile paper, brushed chrome and matte colored objects. Unified palette: deep petrol #001f21, pale mint #e2f1f1, restrained violet #6b3fec, warm white. Wide landscape 3:2 framing, sophisticated soft studio light, crisp details, clean spacious composition, generous clear margins for responsive cropping. No readable text, no logos, no watermarks, no fake client brand. This is a conceptual illustration, not an infographic. Subject: Digital to print production: a refined tabletop composition of blank unbranded thick paper swatch fans, a partially unrolled large printed sheet with abstract violet and petrol shapes and crop marks, a glassy screen-like panel, a short chrome cylinder. Print craft, precision and texture; no readable words.",
+      "original": "artifacts/blog-images/dijitalden-baskiya.png",
+      "thumbnail": "public/assets/blog/dijitalden-baskiya-720.jpg"
+    },
+    {
+      "slug": "sosyal-medya-gorsel-kimlik",
+      "path": "public/assets/blog/sosyal-medya-gorsel-kimlik.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: landscape editorial cover for Arnevo's Turkish design studio blog. Create a polished, art-directed 3D still life, tactile paper, brushed chrome and matte colored objects. Unified palette: deep petrol #001f21, pale mint #e2f1f1, restrained violet #6b3fec, warm white. Wide landscape 3:2 framing, sophisticated soft studio light, crisp details, clean spacious composition, generous clear margins for responsive cropping. No readable text, no logos, no watermarks, no fake client brand. This is a conceptual illustration, not an infographic. Subject: Consistent social media visual identity: nine square editorial tiles arranged in a carefully aligned three-by-three grid standing in perspective, each using repeated circle, arch, stripe and paper relief motifs with consistent petrol, mint, violet and chrome colors. Abstract, varied but cohesive; no app interface, no text.",
+      "original": "artifacts/blog-images/sosyal-medya-gorsel-kimlik.png",
+      "thumbnail": "public/assets/blog/sosyal-medya-gorsel-kimlik-720.jpg"
+    },
+    {
+      "slug": "carousel-tasarimi",
+      "path": "public/assets/blog/carousel-tasarimi.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: landscape editorial cover for Arnevo's Turkish design studio blog. Create a polished, art-directed 3D still life, tactile paper, brushed chrome and matte colored objects. Unified palette: deep petrol #001f21, pale mint #e2f1f1, restrained violet #6b3fec, warm white. Wide landscape 3:2 framing, sophisticated soft studio light, crisp details, clean spacious composition, generous clear margins for responsive cropping. No readable text, no logos, no watermarks, no fake client brand. This is a conceptual illustration, not an infographic. Subject: A social media carousel told as a horizontal sequence of five square tactile cards floating along a subtle curved path, a large opening circle on the first, a progressing violet arch spread across the next three, a clear chrome arrow at the final card. Cohesive visual narrative and swiping rhythm, deep petrol studio backdrop, no words.",
+      "original": "artifacts/blog-images/carousel-tasarimi.png",
+      "thumbnail": "public/assets/blog/carousel-tasarimi-720.jpg"
+    },
+    {
+      "slug": "sosyal-medya-icerik-plani",
+      "path": "public/assets/blog/sosyal-medya-icerik-plani.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: landscape editorial cover for Arnevo's Turkish design studio blog. Create a polished, art-directed 3D still life, tactile paper, brushed chrome and matte colored objects. Unified palette: deep petrol #001f21, pale mint #e2f1f1, restrained violet #6b3fec, warm white. Wide landscape 3:2 framing, sophisticated soft studio light, crisp details, clean spacious composition, generous clear margins for responsive cropping. No readable text, no logos, no watermarks, no fake client brand. This is a conceptual illustration, not an infographic. Subject: An organized content planning board seen in elevated three-quarter view: a large blank pale mint monthly grid with no dates or letters, elegant violet and deep petrol tactile paper cards deliberately arranged in repeating rhythms, chrome clips and one circular planning marker. Calm considered creative planning, no readable text.",
+      "original": "artifacts/blog-images/sosyal-medya-icerik-plani.png",
+      "thumbnail": "public/assets/blog/sosyal-medya-icerik-plani-720.jpg"
+    },
+    {
+      "slug": "marka-stratejisi",
+      "path": "public/assets/blog/marka-stratejisi.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: landscape editorial cover for Arnevo's Turkish design studio blog. Create a polished, art-directed 3D still life, tactile paper, brushed chrome and matte colored objects. Unified palette: deep petrol #001f21, pale mint #e2f1f1, restrained violet #6b3fec, warm white. Wide landscape 3:2 framing, sophisticated soft studio light, crisp details, clean spacious composition, generous clear margins for responsive cropping. No readable text, no logos, no watermarks, no fake client brand. This is a conceptual illustration, not an infographic. Subject: Brand strategy as a clear foundation: layered architectural square slabs of textured petrol, mint and violet rising into a single centered brushed chrome ring sculpture, carefully balanced modular foundation on a pale studio table, abstract strategic clarity rather than a logo. No words.",
+      "original": "artifacts/blog-images/marka-stratejisi.png",
+      "thumbnail": "public/assets/blog/marka-stratejisi-720.jpg"
+    },
+    {
+      "slug": "marka-konumlandirmasi",
+      "path": "public/assets/blog/marka-konumlandirmasi.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: landscape editorial cover for Arnevo's Turkish design studio blog. Create a polished, art-directed 3D still life, tactile paper, brushed chrome and matte colored objects. Unified palette: deep petrol #001f21, pale mint #e2f1f1, restrained violet #6b3fec, warm white. Wide landscape 3:2 framing, sophisticated soft studio light, crisp details, clean spacious composition, generous clear margins for responsive cropping. No readable text, no logos, no watermarks, no fake client brand. This is a conceptual illustration, not an infographic. Subject: Brand positioning: a field of identical small matte mint pillars arranged in a precise grid, with one distinct taller deep petrol sculptural pillar topped by a luminous violet orb and a chrome ring, clearly differentiated yet purposeful. Minimal elevated studio perspective, calm negative space, no text.",
+      "original": "artifacts/blog-images/marka-konumlandirmasi.png",
+      "thumbnail": "public/assets/blog/marka-konumlandirmasi-720.jpg"
+    },
+    {
+      "slug": "rebranding-rehberi",
+      "path": "public/assets/blog/rebranding-rehberi.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: landscape editorial cover for Arnevo's Turkish design studio blog. Create a polished, art-directed 3D still life, tactile paper, brushed chrome and matte colored objects. Unified palette: deep petrol #001f21, pale mint #e2f1f1, restrained violet #6b3fec, warm white. Wide landscape 3:2 framing, sophisticated soft studio light, crisp details, clean spacious composition, generous clear margins for responsive cropping. No readable text, no logos, no watermarks, no fake client brand. This is a conceptual illustration, not an infographic. Subject: Rebranding as thoughtful evolution: two related abstract arch sculptures side by side, left a rough layered paper prototype, right a refined deep petrol arch with polished chrome edge and small violet insert; a continuous mint ribbon connects old to new, continuity and transformation. No words.",
+      "original": "artifacts/blog-images/rebranding-rehberi.png",
+      "thumbnail": "public/assets/blog/rebranding-rehberi-720.jpg"
+    },
+    {
+      "slug": "logo-kurumsal-kimlik-farki",
+      "path": "public/assets/blog/logo-kurumsal-kimlik-farki.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: landscape editorial cover for Arnevo's Turkish design studio blog. Create a polished, art-directed 3D still life, tactile paper, brushed chrome and matte colored objects. Unified palette: deep petrol #001f21, pale mint #e2f1f1, restrained violet #6b3fec, warm white. Wide landscape 3:2 framing, sophisticated soft studio light, crisp details, clean spacious composition, generous clear margins for responsive cropping. No readable text, no logos, no watermarks, no fake client brand. This is a conceptual illustration, not an infographic. Subject: Logo versus full visual identity system: a single minimalist abstract chrome ring emblem at left and an expanded family of coordinated unbranded stationery cards, paper envelope, small packaging box and digital glass tile at right using petrol, mint and violet geometric motifs. Carefully arranged flat lay, no text, no real logos.",
+      "original": "artifacts/blog-images/logo-kurumsal-kimlik-farki.png",
+      "thumbnail": "public/assets/blog/logo-kurumsal-kimlik-farki-720.jpg"
+    },
+    {
+      "slug": "marka-kimligi-kilavuzu",
+      "path": "public/assets/blog/marka-kimligi-kilavuzu.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: landscape editorial cover for Arnevo's Turkish design studio blog. Create a polished, art-directed 3D still life, tactile paper, brushed chrome and matte colored objects. Unified palette: deep petrol #001f21, pale mint #e2f1f1, restrained violet #6b3fec, warm white. Wide landscape 3:2 framing, sophisticated soft studio light, crisp details, clean spacious composition, generous clear margins for responsive cropping. No readable text, no logos, no watermarks, no fake client brand. This is a conceptual illustration, not an infographic. Subject: Brand guidelines as a beautifully bound open studio manual with abstract typographic geometry, color swatch blocks in mint, petrol and violet, disciplined modular grid diagrams, paired with a chrome paperweight and a neat stack of matching sample cards. Tactile paper, refined overhead three-quarter editorial photography. No readable words or numbers.",
+      "original": "artifacts/blog-images/marka-kimligi-kilavuzu.png",
+      "thumbnail": "public/assets/blog/marka-kimligi-kilavuzu-720.jpg"
+    },
+    {
+      "slug": "kurumsal-kimlikte-tutarlilik",
+      "path": "public/assets/blog/kurumsal-kimlikte-tutarlilik.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: landscape editorial cover for Arnevo's Turkish design studio blog. Create a polished, art-directed 3D still life, tactile paper, brushed chrome and matte colored objects. Unified palette: deep petrol #001f21, pale mint #e2f1f1, restrained violet #6b3fec, warm white. Wide landscape 3:2 framing, sophisticated soft studio light, crisp details, clean spacious composition, generous clear margins for responsive cropping. No readable text, no logos, no watermarks, no fake client brand. This is a conceptual illustration, not an infographic. Subject: Consistent brand across physical and digital touchpoints: a coordinated business card, stationery sheet, small unbranded package, standing glass website panel and small phone-shaped tile sharing the exact same abstract petrol arch and violet circle motif. Seamless visual family on mint surface, chrome accents, wide elegant still life. No text, no logos.",
+      "original": "artifacts/blog-images/kurumsal-kimlikte-tutarlilik.png",
+      "thumbnail": "public/assets/blog/kurumsal-kimlikte-tutarlilik-720.jpg"
+    }
+  ]
+}

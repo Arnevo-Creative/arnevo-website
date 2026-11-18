@@ -1,0 +1,94 @@
+/* Shared white header, based on Figma node 200:935. */
+:root { --header-height: 80px; }
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  width: 100%;
+  height: var(--header-height);
+  padding: 10px 50px;
+  background: #fff;
+  color: #000;
+  box-shadow: 0 4px 2px #00000040;
+}
+
+.brand { display: block; flex: 0 0 auto; width: 247px; height: 48.6034px; }
+.brand img { max-width: none; }
+.header #navigation {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  font-size: 13px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.header #navigation > a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 60px;
+  padding-block: 20px;
+}
+.header #navigation > a::after {
+  content: '';
+  position: absolute;
+  bottom: 12px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: currentColor;
+  transition: width .2s;
+}
+.header #navigation > a:hover::after,
+.header #navigation > a[aria-current='page']::after { width: 100%; }
+.menu-toggle { display: none; }
+
+@media (min-width: 761px) and (max-width: 1000px) {
+  .header { padding-inline: 24px; gap: 24px; }
+  .header #navigation { gap: 24px; }
+}
+
+@media (max-width: 760px) {
+  :root { --header-height: 72px; }
+  .header { padding: 10px 20px; gap: 16px; }
+  .brand { width: 197.6px; height: 38.88272px; }
+  .brand img { transform: scale(.8); transform-origin: top left; }
+  .menu-toggle {
+    display: flex;
+    flex: 0 0 44px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    border: 0;
+    background: transparent;
+    color: #000;
+    cursor: pointer;
+  }
+  .menu-toggle span { width: 24px; height: 1px; background: currentColor; transition: transform .2s; }
+  .menu-open .menu-toggle span:first-child { transform: translateY(3.5px) rotate(45deg); }
+  .menu-open .menu-toggle span:last-child { transform: translateY(-3.5px) rotate(-45deg); }
+  .header #navigation {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 14px 20px 20px;
+    border-top: 1px solid #e8eded;
+    background: #fff;
+    box-shadow: 0 8px 14px #001f211a;
+    font-size: 18px;
+  }
+  .header.menu-open #navigation { display: flex; flex-direction: column; align-items: stretch; gap: 0; }
+  .header #navigation > a { min-height: 52px; padding-block: 13px; }
+  .header #navigation > a::after { bottom: 8px; }
+}

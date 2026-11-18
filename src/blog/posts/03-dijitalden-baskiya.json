@@ -1,0 +1,56 @@
+{
+  "slug": "dijitalden-baskiya",
+  "category": "grafik-tasarim",
+  "title": "Dijitalden Baskıya: Tasarım Dosyalarında Dikkat Edilmesi Gerekenler",
+  "summary": "Renk, kesim payı, görsel kalitesi ve teslim dosyalarını baskı öncesinde kontrol etmek için pratik bir hazırlık akışı.",
+  "coverAlt": "Baskı kesim işaretli mor ve yeşil desenli bir kâğıt rulosu, renk örnekleri ve saydam ekran paneli.",
+  "intro": "Ekranda iyi görünen bir tasarım, baskıya kendiliğinden hazır hale gelmez. Kâğıt, mürekkep, bitirme işlemi ve kesim yöntemi sonucun parçasıdır. Baskı dosyasını hazırlamak ayrı bir üretim aşaması olarak ele alındığında hem tasarımın karakteri korunur hem de son dakika düzeltmelerinin önüne geçmek kolaylaşır. İlk iş, çalışacağınız üreticinin gereksinimlerini öğrenmektir.",
+  "sections": [
+    {
+      "title": "Dosyadan önce üretim bilgisini netleştirin",
+      "paragraphs": [
+        "İşin bitmiş ölçüsünü, kâğıt türünü, baskı adedini ve uygulanacak işlemleri yazılı olarak belirleyin. Katlama, kesim, yaldız veya özel bir kaplama varsa bunların dosyada nasıl gösterileceğini matbaayla konuşun. Her üreticiye aynı dışa aktarma ayarını göndermek güvenilir bir yöntem değildir.",
+        "Baskı sağlayıcısından istediği PDF standardını, renk profilini ve kesim payı ölçüsünü isteyin. Başka bir iş için doğru olan ayar bu iş için uygun olmayabilir. Özellikle ambalajlarda üretim şablonunu en başta almak, tasarım bittikten sonra yerleşimi değiştirmek zorunda kalmanızı önler."
+      ]
+    },
+    {
+      "title": "Kesim payını ve güvenli alanı ayırın",
+      "paragraphs": [
+        "Kesim payı, görselin bitmiş sayfa sınırının dışına taşan bölümüdür. Kenara kadar uzanan bir fotoğraf veya zemin, kesim sırasında beyaz bir çizgi oluşmaması için bu alana devam etmelidir. Sayfa boyutunu rastgele büyütmek yerine belgenin ilgili kesim payı ayarlarını kullanın.",
+        "Güvenli alan ise önemli metinlerin ve logoların kesim çizgisinden içeride tutulduğu bölgedir. Bu iki kavram farklı sorunları çözer. Kesim payına kadar uzanan bir zemin doğru olabilir; aynı yerde duran telefon numarası ise risklidir. Gerekli mesafeleri işin üretim toleransına göre belirleyin."
+      ]
+    },
+    {
+      "title": "Renkleri ve görselleri nihai boyutta kontrol edin",
+      "paragraphs": [
+        "Ekranın ışık yaymasıyla basılı yüzeyin ışığı yansıtması aynı şey değildir. Bu yüzden ekranda gördüğünüz parlaklığı baskıda birebir beklemeyin. Üreticinin önerdiği renk yönetimi ayarlarını kullanın; belirleyici marka renklerinde uygun bir prova isteyin.",
+        "Bir görselin dosyası büyük olsa da yerleşimde çok büyütüldüğünde yeterli ayrıntıyı sağlayamayabilir. Kaliteyi tasarım içindeki gerçek kullanım boyutunda değerlendirin. Logoları mümkün olduğunda uygun vektör dosyalarıyla yerleştirin; internetten alınmış küçük önizlemeleri üretim dosyası olarak kullanmayın."
+      ]
+    },
+    {
+      "title": "Son PDF'yi ayrı bir ürün gibi inceleyin",
+      "paragraphs": [
+        "Çalışma dosyasında sorun görünmemesi, dışa aktarılan PDF'nin de hazır olduğu anlamına gelmez. Son PDF'yi açıp sayfa sırasını, taşan metinleri, eksik görselleri ve kenarları tekrar inceleyin. InDesign gibi araçların ön kontrol özellikleri eksik font veya bağlantı gibi sorunları tespit etmeye yardımcı olur.",
+        "Teslim klasöründe hangi dosyanın üretime gireceği açık olsun. Eski revizyonları aynı klasöre gelişigüzel koymayın. Onaylanan sürümü, ölçü bilgisini ve varsa prova notlarını birlikte paylaşın. Kritik işlerde fiziksel örneği onaylamak, ekran kontrolünün yerine geçmeyen önemli bir adımdır."
+      ],
+      "bullets": [
+        "Üreticiden teknik şartname ve şablon alın.",
+        "Kesim payını ve güvenli alanı ayrı ayrı kontrol edin.",
+        "Görselleri yerleştirildikleri boyutta değerlendirin.",
+        "Dışa aktarılan PDF'yi açıp yeniden inceleyin."
+      ]
+    }
+  ],
+  "takeaway": "Baskıya hazır dosya, yalnızca PDF uzantısı taşıyan değil; üretim yöntemiyle birlikte kontrol edilmiş dosyadır.",
+  "sources": [
+    {
+      "label": "Adobe InDesign — Printer's marks and bleeds",
+      "url": "https://helpx.adobe.com/indesign/desktop/print/page-set-up-and-printer-marks/print-bleed-and-slug-areas.html"
+    },
+    {
+      "label": "Adobe InDesign — Preflight files before handoff",
+      "url": "https://helpx.adobe.com/indesign/desktop/print/preflight/configure-and-use-the-preflight-panel.html"
+    }
+  ],
+  "service": "grafik-tasarim"
+}

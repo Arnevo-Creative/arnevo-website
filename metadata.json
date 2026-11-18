@@ -1,6 +1,0 @@
-{
-  "name": "Arnevo Creative Studio",
-  "description": "Art Nouveau ruhunu modern tasarım anlayışıyla birleştirerek markalar için akılda kalan görsel dünyalar tasarlayan bir creative studio.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}

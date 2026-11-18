@@ -28,7 +28,8 @@
 .header .mega-bottom>a>span { font-size:22px; }
 @media(min-width:761px) and (max-width:1000px){.header .services-mega{left:24px;right:24px;padding-inline:24px}.mega-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:25px}.mega-top p{font-size:17px}}
 @media(max-width:760px){
-  .header.menu-open #navigation { max-height:calc(100dvh - var(--header-height));overflow-y:auto;overscroll-behavior:contain;scrollbar-color:#91b2b5 #fff; }
+  .header.menu-open #navigation { max-height:calc(100dvh - var(--header-height) - var(--header-top));overflow-y:auto;overscroll-behavior:contain;scrollbar-color:#91b2b5 #fff; }
+  .header.header-scrolled.menu-open #navigation { max-height:calc(100dvh - var(--header-height) - var(--header-top) - 6px); }
   .header .services-dropdown>summary { padding:13px 0;justify-content:space-between;font-size:18px; }
   .header .services-dropdown>summary[aria-current]::after { display:none; }
   .header .services-mega { position:static;max-height:none;border-radius:16px;border:0;box-shadow:none;margin:5px 0 15px;padding:0 16px 15px;overflow:visible; }

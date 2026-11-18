@@ -4,6 +4,14 @@ const navigation = document.querySelector('#navigation');
 const servicesDropdown = document.querySelector('.services-dropdown');
 const servicesSummary = servicesDropdown.querySelector(':scope > summary');
 const mobileQuery = window.matchMedia('(max-width: 760px)');
+
+function updateHeader() {
+  header.classList.toggle('header-scrolled', window.scrollY > 24);
+}
+updateHeader();
+window.addEventListener('scroll', updateHeader, { passive: true });
+window.addEventListener('pageshow', updateHeader);
+
 function closeServiceMenu() { servicesDropdown.open = false; }
 function closeMenu() {
   toggle.setAttribute('aria-expanded', 'false');

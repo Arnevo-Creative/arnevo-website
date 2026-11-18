@@ -81,8 +81,8 @@ Teklif CTA'ları `/iletisim#iletisim-bilgileri` bölümündeki doğrudan iletiş
 12 kapak, yerleşik `image_gen` aracıyla her yazı için ayrı üretildi. Arnevo'nun petrol yeşili, mint, mor ve krom malzeme dili kullanıldı. Üretim prompt seti ve dosya eşlemesi: `artifacts/blog-images/prompts.json`.
 
 - Tam boyutlu özgün PNG'ler: `artifacts/blog-images/` (üretim sunucusuna kopyalanmaz).
-- Web için 1440 px JPEG ve 720 px küçük sürümler: `public/assets/blog/`.
-- Sayfalar responsive `srcset`, boyut bilgisi ve ekranın aşağısındaki görseller için lazy loading kullanır. Bu sürümlerde yalnızca boyutlandırma/JPEG sıkıştırma uygulanmıştır.
+- Web için 480, 720, 1080 ve 1440 px WebP sürümleri: `public/assets/blog/`. Sosyal paylaşım metaverisinde kullanılan JPEG adresleri 1200 px olarak korunur.
+- Sayfalar responsive `srcset`, boyut bilgisi ve ekranın aşağısındaki görseller için lazy loading kullanır. Kompozisyon korunarak boyutlandırma ve dosya sıkıştırması uygulanmıştır.
 
 Yazıların yayın tarihi 15 Kasım 2026; yazar adı Arnevo Creative Studio'dur. İçerikler genel tasarım rehberleridir; gerçek müşteri vakası veya ölçülmüş performans iddiası içermez.
 
@@ -115,3 +115,12 @@ Kapsamlar başlangıç çerçevesidir. Kesin teslim, süre, lisans/platform gide
 - `src/components/footer.html` ve `src/footer.css`: sol üstte beyaz logo, stüdyo anlatımı, ana sayfalar, üç sütunlu hizmet dizini ve kategorilere ayrılmış blog yazıları. Beyaz boşluk içinde yuvarlatılmış petrol yeşili panel; tablet ve mobilde uyarlanan sütunlar.
 - `src/render-footer.js`: 59 hizmet bağlantısını mevcut hizmet kataloğundan, 12 yazı bağlantısını blog verisinden üretir. Kategori başlıkları ilgili hizmet bölümü veya blog filtresine gider. Footer tüm 76 sayfaya derleme sırasında eklenir; JavaScript olmadan da tüm bağlantılar kullanılabilir.
 - E-posta bağlantısı `info@arnevo.co`, üst bağlantısı `#main` hedefine gider. İşletme sahibinin isteğiyle Çerezler, Politikalar ve Kullanım Koşulları başlıkları kaldırılmıştır.
+
+## Görsel optimizasyonu
+
+- `scripts/optimize-images.mjs`, `scripts/image-settings.json`: Sharp ile mevcut görsellerden WebP boyutları üretir. Yazı içeren Sufle tasarımları ve küçük grafiklerde kayıpsız WebP; fotoğraf ve krom görsellerde yüksek kaliteli WebP kullanılır. Saydamlık ve en-boy oranları korunur.
+- `src/image-manifest.json`: gerçek piksel boyutları, responsive dosyalar ve boyut ölçümleri. `src/render-images.js`, ortak HTML üretildikten sonra uygun `srcset`, `sizes`, boyut ve yükleme özelliklerini ekler. SVG logolar ve maskeler vektör olarak kalır.
+- Büyük PNG'ler ve eski küçük JPEG sürümleri yayın klasöründen çıkarılır. Özgün dosyalar yerelde `artifacts/image-originals/` altında arşivlenir; bu klasör Git'e ve üretim derlemesine dahil edilmez. Eski kaynaklar ayrıca Git geçmişinde bulunur. Sosyal paylaşım için JPEG kapak adresleri korunur.
+- Ana sayfa açılış görseli öncelikli yüklenir; ekranın aşağısındaki görseller ihtiyaç oldukça yüklenir. Yeni görüntüler üretmek veya mevcut tasarımları değiştirmek için yapay zekâ kullanılmaz.
+
+Yeni PNG/JPEG eklendiğinde `npm run optimize:images` çalıştırın, üretilen WebP adresini sayfada kullanın ve `npm run build && npm run check:build` ile doğrulayın. Aynı adlı kaynak yenilenirse önceki özgün dosya arşivin `versions/` klasöründe tutulur. Başka bir bilgisayarda yeniden kodlama için özgün kaynakları arşivden veya Git geçmişinden geri getirmek gerekir; normal geliştirme ve yayın, depoya eklenen optimize dosyalarla çalışır.

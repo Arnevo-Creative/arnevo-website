@@ -1,0 +1,1328 @@
+{
+  "stats": {
+    "originalRasterBytes": 62948985,
+    "publishedImageBytes": 6791698,
+    "webpBytes": 6104826,
+    "sourceImages": 49,
+    "archivedUnused": 4
+  },
+  "unused": [
+    {
+      "source": "/assets/48ed3.png",
+      "originalBytes": 4865058
+    },
+    {
+      "source": "/assets/7a683.png",
+      "originalBytes": 1436196
+    },
+    {
+      "source": "/assets/cc332.png",
+      "originalBytes": 1822648
+    },
+    {
+      "source": "/assets/sufle-cover.png",
+      "originalBytes": 69432
+    }
+  ],
+  "images": {
+    "/assets/0586f.png": {
+      "originalBytes": 16544619,
+      "sourceSha": "1080329be91dae9f5c97be7639c17d6fc3ba92db40120a745a825e6faaab599a",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 4000,
+      "sourceHeight": 3000,
+      "alpha": true,
+      "candidates": [
+        {
+          "src": "/assets/0586f-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 14228
+        },
+        {
+          "src": "/assets/0586f-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 44440
+        },
+        {
+          "src": "/assets/0586f.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 111042
+        }
+      ],
+      "src": "/assets/0586f.webp",
+      "width": 1440,
+      "height": 1080,
+      "srcset": "/assets/0586f-480.webp 480w, /assets/0586f-960.webp 960w, /assets/0586f.webp 1440w"
+    },
+    "/assets/09788.png": {
+      "originalBytes": 1144922,
+      "sourceSha": "be8ff0985c280f1331217657dc7e9761e420b608ad9e2eb9100945309be637c5",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 1576,
+      "sourceHeight": 642,
+      "alpha": true,
+      "candidates": [
+        {
+          "src": "/assets/09788-640.webp",
+          "width": 640,
+          "height": 261,
+          "bytes": 17904
+        },
+        {
+          "src": "/assets/09788-960.webp",
+          "width": 960,
+          "height": 391,
+          "bytes": 29812
+        },
+        {
+          "src": "/assets/09788.webp",
+          "width": 1576,
+          "height": 642,
+          "bytes": 54196
+        }
+      ],
+      "src": "/assets/09788.webp",
+      "width": 1576,
+      "height": 642,
+      "srcset": "/assets/09788-640.webp 640w, /assets/09788-960.webp 960w, /assets/09788.webp 1576w"
+    },
+    "/assets/12d90.png": {
+      "originalBytes": 11774,
+      "sourceSha": "4ee251b6b6d2efb3e400808e85f00be3b282a8c238da813da0112910f6b3480a",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 80,
+      "sourceHeight": 80,
+      "alpha": true,
+      "candidates": [
+        {
+          "src": "/assets/12d90.webp",
+          "width": 80,
+          "height": 80,
+          "bytes": 2150
+        }
+      ],
+      "src": "/assets/12d90.webp",
+      "width": 80,
+      "height": 80,
+      "srcset": "/assets/12d90.webp 80w"
+    },
+    "/assets/1c0b9.png": {
+      "originalBytes": 1005498,
+      "sourceSha": "3ecd6d561c0897c5825ee4ef14c947e1f814dd96fbaa7e0319ed378fbea7e0fa",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 1320,
+      "sourceHeight": 1374,
+      "alpha": true,
+      "candidates": [
+        {
+          "src": "/assets/1c0b9.webp",
+          "width": 192,
+          "height": 200,
+          "bytes": 25240
+        }
+      ],
+      "src": "/assets/1c0b9.webp",
+      "width": 192,
+      "height": 200,
+      "srcset": "/assets/1c0b9.webp 192w"
+    },
+    "/assets/3ecd0.png": {
+      "originalBytes": 599374,
+      "sourceSha": "42338667dbba9a17353ce0f467d7ba23a8f692cfe1f715b8cfe04a2cd5369bd9",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 1364,
+      "sourceHeight": 1324,
+      "alpha": true,
+      "candidates": [
+        {
+          "src": "/assets/3ecd0.webp",
+          "width": 192,
+          "height": 186,
+          "bytes": 16092
+        }
+      ],
+      "src": "/assets/3ecd0.webp",
+      "width": 192,
+      "height": 186,
+      "srcset": "/assets/3ecd0.webp 192w"
+    },
+    "/assets/5efb8.png": {
+      "originalBytes": 831622,
+      "sourceSha": "dc7c5136e94cf6ccfafaaeaa9c36237191bee010de6b21a916e151bf02bedac6",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 1111,
+      "sourceHeight": 741,
+      "alpha": true,
+      "candidates": [
+        {
+          "src": "/assets/5efb8-640.webp",
+          "width": 640,
+          "height": 427,
+          "bytes": 98202
+        },
+        {
+          "src": "/assets/5efb8.webp",
+          "width": 1111,
+          "height": 741,
+          "bytes": 200036
+        }
+      ],
+      "src": "/assets/5efb8.webp",
+      "width": 1111,
+      "height": 741,
+      "srcset": "/assets/5efb8-640.webp 640w, /assets/5efb8.webp 1111w"
+    },
+    "/assets/61966.png": {
+      "originalBytes": 2396512,
+      "sourceSha": "0b240310cec6b442d2d706a0cdc8f31347987c4a9af7054f46b9703285c349fb",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 1704,
+      "sourceHeight": 988,
+      "alpha": true,
+      "candidates": [
+        {
+          "src": "/assets/61966-640.webp",
+          "width": 640,
+          "height": 371,
+          "bytes": 24872
+        },
+        {
+          "src": "/assets/61966.webp",
+          "width": 1280,
+          "height": 742,
+          "bytes": 140868
+        }
+      ],
+      "src": "/assets/61966.webp",
+      "width": 1280,
+      "height": 742,
+      "srcset": "/assets/61966-640.webp 640w, /assets/61966.webp 1280w"
+    },
+    "/assets/963df.png": {
+      "originalBytes": 374346,
+      "sourceSha": "3da30635a0034ed6039bdca91483cdc212510c2e5f810875b51dffe5b558afd5",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 1254,
+      "sourceHeight": 843,
+      "alpha": true,
+      "candidates": [
+        {
+          "src": "/assets/963df-640.webp",
+          "width": 640,
+          "height": 430,
+          "bytes": 25712
+        },
+        {
+          "src": "/assets/963df.webp",
+          "width": 1254,
+          "height": 843,
+          "bytes": 48752
+        }
+      ],
+      "src": "/assets/963df.webp",
+      "width": 1254,
+      "height": 843,
+      "srcset": "/assets/963df-640.webp 640w, /assets/963df.webp 1254w"
+    },
+    "/assets/ac4f7.png": {
+      "originalBytes": 1189120,
+      "sourceSha": "44b0ab7bd3ff388255a76a56323f8df2acff1f2db1d9d31f151cd9c88e018981",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "alpha": true,
+      "candidates": [
+        {
+          "src": "/assets/ac4f7-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 13504
+        },
+        {
+          "src": "/assets/ac4f7-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 31570
+        },
+        {
+          "src": "/assets/ac4f7-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 75924
+        },
+        {
+          "src": "/assets/ac4f7.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 144512
+        }
+      ],
+      "src": "/assets/ac4f7.webp",
+      "width": 1254,
+      "height": 1254,
+      "srcset": "/assets/ac4f7-160.webp 160w, /assets/ac4f7-320.webp 320w, /assets/ac4f7-640.webp 640w, /assets/ac4f7.webp 1254w"
+    },
+    "/assets/blog/carousel-tasarimi-720.jpg": {
+      "originalBytes": 56463,
+      "sourceSha": "841a5268155e2ef4954be4d14aac79dbdaebc1bbcab92958ec5ece52b57e6e73",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 720,
+      "sourceHeight": 480,
+      "alpha": false,
+      "candidates": [
+        {
+          "src": "/assets/blog/carousel-tasarimi-720.webp",
+          "width": 720,
+          "height": 480,
+          "bytes": 18350
+        }
+      ],
+      "src": "/assets/blog/carousel-tasarimi-720.webp",
+      "width": 720,
+      "height": 480,
+      "srcset": "/assets/blog/carousel-tasarimi-720.webp 720w"
+    },
+    "/assets/blog/carousel-tasarimi.jpg": {
+      "originalBytes": 256112,
+      "sourceSha": "182c15d4f6034fb6ce7750e21cb89d0423adbdc024d06e5108f782d5cbf9d2cd",
+      "legacyBytes": 49309,
+      "legacySha": "314955030dc3ce5333ab444307bdf1fcff8f1abbb7f00cabda2e131ac9adfd3f",
+      "sourceWidth": 1440,
+      "sourceHeight": 960,
+      "alpha": false,
+      "candidates": [
+        {
+          "src": "/assets/blog/carousel-tasarimi-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 10748
+        },
+        {
+          "src": "/assets/blog/carousel-tasarimi-720.webp",
+          "width": 720,
+          "height": 480,
+          "bytes": 18350
+        },
+        {
+          "src": "/assets/blog/carousel-tasarimi-1080.webp",
+          "width": 1080,
+          "height": 720,
+          "bytes": 37648
+        },
+        {
+          "src": "/assets/blog/carousel-tasarimi.webp",
+          "width": 1440,
+          "height": 960,
+          "bytes": 65650
+        }
+      ],
+      "src": "/assets/blog/carousel-tasarimi.webp",
+      "width": 1440,
+      "height": 960,
+      "srcset": "/assets/blog/carousel-tasarimi-480.webp 480w, /assets/blog/carousel-tasarimi-720.webp 720w, /assets/blog/carousel-tasarimi-1080.webp 1080w, /assets/blog/carousel-tasarimi.webp 1440w"
+    },
+    "/assets/blog/dijitalden-baskiya-720.jpg": {
+      "originalBytes": 67956,
+      "sourceSha": "151bbc16b39f8c75fd9102724f6bcf597ace02889918f89de664ecd71f8df9fc",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 720,
+      "sourceHeight": 480,
+      "alpha": false,
+      "candidates": [
+        {
+          "src": "/assets/blog/dijitalden-baskiya-720.webp",
+          "width": 720,
+          "height": 480,
+          "bytes": 23140
+        }
+      ],
+      "src": "/assets/blog/dijitalden-baskiya-720.webp",
+      "width": 720,
+      "height": 480,
+      "srcset": "/assets/blog/dijitalden-baskiya-720.webp 720w"
+    },
+    "/assets/blog/dijitalden-baskiya.jpg": {
+      "originalBytes": 303207,
+      "sourceSha": "4bf980346b7425aee1b9a2a0f99ac612710aafe243aa89e678371bab0f6abd11",
+      "legacyBytes": 60275,
+      "legacySha": "d875ab56b683c382cf5cc8c84c0747062c23be192c8327d1289844b396f33f2a",
+      "sourceWidth": 1440,
+      "sourceHeight": 960,
+      "alpha": false,
+      "candidates": [
+        {
+          "src": "/assets/blog/dijitalden-baskiya-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 12200
+        },
+        {
+          "src": "/assets/blog/dijitalden-baskiya-720.webp",
+          "width": 720,
+          "height": 480,
+          "bytes": 23140
+        },
+        {
+          "src": "/assets/blog/dijitalden-baskiya-1080.webp",
+          "width": 1080,
+          "height": 720,
+          "bytes": 50982
+        },
+        {
+          "src": "/assets/blog/dijitalden-baskiya.webp",
+          "width": 1440,
+          "height": 960,
+          "bytes": 86020
+        }
+      ],
+      "src": "/assets/blog/dijitalden-baskiya.webp",
+      "width": 1440,
+      "height": 960,
+      "srcset": "/assets/blog/dijitalden-baskiya-480.webp 480w, /assets/blog/dijitalden-baskiya-720.webp 720w, /assets/blog/dijitalden-baskiya-1080.webp 1080w, /assets/blog/dijitalden-baskiya.webp 1440w"
+    },
+    "/assets/blog/gorsel-hiyerarsi-720.jpg": {
+      "originalBytes": 56606,
+      "sourceSha": "f7466ebf92e3d2647fb4740023f6fe8fc99cf10cac82c426a27638c73b380f49",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 720,
+      "sourceHeight": 480,
+      "alpha": false,
+      "candidates": [
+        {
+          "src": "/assets/blog/gorsel-hiyerarsi-720.webp",
+          "width": 720,
+          "height": 480,
+          "bytes": 17568
+        }
+      ],
+      "src": "/assets/blog/gorsel-hiyerarsi-720.webp",
+      "width": 720,
+      "height": 480,
+      "srcset": "/assets/blog/gorsel-hiyerarsi-720.webp 720w"
+    },
+    "/assets/blog/gorsel-hiyerarsi.jpg": {
+      "originalBytes": 261117,
+      "sourceSha": "0255e1c18c2ee34cf9675ae60f929877cd55aec504fd6ac5105df044eafde1fb",
+      "legacyBytes": 48994,
+      "legacySha": "203482e487e2568ad4305e66cb77b3435272bfa1f2fb970cb60050884c51a707",
+      "sourceWidth": 1440,
+      "sourceHeight": 960,
+      "alpha": false,
+      "candidates": [
+        {
+          "src": "/assets/blog/gorsel-hiyerarsi-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 10624
+        },
+        {
+          "src": "/assets/blog/gorsel-hiyerarsi-720.webp",
+          "width": 720,
+          "height": 480,
+          "bytes": 17568
+        },
+        {
+          "src": "/assets/blog/gorsel-hiyerarsi-1080.webp",
+          "width": 1080,
+          "height": 720,
+          "bytes": 33434
+        },
+        {
+          "src": "/assets/blog/gorsel-hiyerarsi.webp",
+          "width": 1440,
+          "height": 960,
+          "bytes": 56012
+        }
+      ],
+      "src": "/assets/blog/gorsel-hiyerarsi.webp",
+      "width": 1440,
+      "height": 960,
+      "srcset": "/assets/blog/gorsel-hiyerarsi-480.webp 480w, /assets/blog/gorsel-hiyerarsi-720.webp 720w, /assets/blog/gorsel-hiyerarsi-1080.webp 1080w, /assets/blog/gorsel-hiyerarsi.webp 1440w"
+    },
+    "/assets/blog/kurumsal-kimlikte-tutarlilik-720.jpg": {
+      "originalBytes": 51324,
+      "sourceSha": "400c43d60356f465a08fae56e67bb56a61e5188a293f1d443ebdbafc6284420c",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 720,
+      "sourceHeight": 480,
+      "alpha": false,
+      "candidates": [
+        {
+          "src": "/assets/blog/kurumsal-kimlikte-tutarlilik-720.webp",
+          "width": 720,
+          "height": 480,
+          "bytes": 16616
+        }
+      ],
+      "src": "/assets/blog/kurumsal-kimlikte-tutarlilik-720.webp",
+      "width": 720,
+      "height": 480,
+      "srcset": "/assets/blog/kurumsal-kimlikte-tutarlilik-720.webp 720w"
+    },
+    "/assets/blog/kurumsal-kimlikte-tutarlilik.jpg": {
+      "originalBytes": 223870,
+      "sourceSha": "ba31cad12dd4aaf5ecc1ed2e0957344bdb97c2a777150b1c2baa3185833520f8",
+      "legacyBytes": 44691,
+      "legacySha": "67f2a2244ab2e0f43400d6c881467ba75f7ad03f33f7fa282e0b98d6f05a3a43",
+      "sourceWidth": 1440,
+      "sourceHeight": 960,
+      "alpha": false,
+      "candidates": [
+        {
+          "src": "/assets/blog/kurumsal-kimlikte-tutarlilik-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 10064
+        },
+        {
+          "src": "/assets/blog/kurumsal-kimlikte-tutarlilik-720.webp",
+          "width": 720,
+          "height": 480,
+          "bytes": 16616
+        },
+        {
+          "src": "/assets/blog/kurumsal-kimlikte-tutarlilik-1080.webp",
+          "width": 1080,
+          "height": 720,
+          "bytes": 28542
+        },
+        {
+          "src": "/assets/blog/kurumsal-kimlikte-tutarlilik.webp",
+          "width": 1440,
+          "height": 960,
+          "bytes": 48302
+        }
+      ],
+      "src": "/assets/blog/kurumsal-kimlikte-tutarlilik.webp",
+      "width": 1440,
+      "height": 960,
+      "srcset": "/assets/blog/kurumsal-kimlikte-tutarlilik-480.webp 480w, /assets/blog/kurumsal-kimlikte-tutarlilik-720.webp 720w, /assets/blog/kurumsal-kimlikte-tutarlilik-1080.webp 1080w, /assets/blog/kurumsal-kimlikte-tutarlilik.webp 1440w"
+    },
+    "/assets/blog/logo-kurumsal-kimlik-farki-720.jpg": {
+      "originalBytes": 52996,
+      "sourceSha": "809b17e74698deaaaf665a22839ecd4803aa7f201c159ee379b51a2fc1f9c266",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 720,
+      "sourceHeight": 480,
+      "alpha": false,
+      "candidates": [
+        {
+          "src": "/assets/blog/logo-kurumsal-kimlik-farki-720.webp",
+          "width": 720,
+          "height": 480,
+          "bytes": 14590
+        }
+      ],
+      "src": "/assets/blog/logo-kurumsal-kimlik-farki-720.webp",
+      "width": 720,
+      "height": 480,
+      "srcset": "/assets/blog/logo-kurumsal-kimlik-farki-720.webp 720w"
+    },
+    "/assets/blog/logo-kurumsal-kimlik-farki.jpg": {
+      "originalBytes": 254335,
+      "sourceSha": "bfc90a6ee3d0a4461cf1e328a8594eff96fc1d014331b6082836dda6f9e147b0",
+      "legacyBytes": 46545,
+      "legacySha": "1ba4288a8d34d0eeb538bb0cc76befe00148ef206f33fd7f8735f26f46be9abb",
+      "sourceWidth": 1440,
+      "sourceHeight": 960,
+      "alpha": false,
+      "candidates": [
+        {
+          "src": "/assets/blog/logo-kurumsal-kimlik-farki-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 8590
+        },
+        {
+          "src": "/assets/blog/logo-kurumsal-kimlik-farki-720.webp",
+          "width": 720,
+          "height": 480,
+          "bytes": 14590
+        },
+        {
+          "src": "/assets/blog/logo-kurumsal-kimlik-farki-1080.webp",
+          "width": 1080,
+          "height": 720,
+          "bytes": 27570
+        },
+        {
+          "src": "/assets/blog/logo-kurumsal-kimlik-farki.webp",
+          "width": 1440,
+          "height": 960,
+          "bytes": 51246
+        }
+      ],
+      "src": "/assets/blog/logo-kurumsal-kimlik-farki.webp",
+      "width": 1440,
+      "height": 960,
+      "srcset": "/assets/blog/logo-kurumsal-kimlik-farki-480.webp 480w, /assets/blog/logo-kurumsal-kimlik-farki-720.webp 720w, /assets/blog/logo-kurumsal-kimlik-farki-1080.webp 1080w, /assets/blog/logo-kurumsal-kimlik-farki.webp 1440w"
+    },
+    "/assets/blog/marka-font-secimi-720.jpg": {
+      "originalBytes": 45144,
+      "sourceSha": "b346ad6183b6327a376f824f662811f0fe1d3ab39e1db15314ae58d0ad036655",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 720,
+      "sourceHeight": 480,
+      "alpha": false,
+      "candidates": [
+        {
+          "src": "/assets/blog/marka-font-secimi-720.webp",
+          "width": 720,
+          "height": 480,
+          "bytes": 13968
+        }
+      ],
+      "src": "/assets/blog/marka-font-secimi-720.webp",
+      "width": 720,
+      "height": 480,
+      "srcset": "/assets/blog/marka-font-secimi-720.webp 720w"
+    },
+    "/assets/blog/marka-font-secimi.jpg": {
+      "originalBytes": 194943,
+      "sourceSha": "edadc2574f6ec109ffd958f9c9d3ed2da16d6dcfe4f4066e247c9686896d035f",
+      "legacyBytes": 38114,
+      "legacySha": "674e9c84fa8b5a71bcdfb0c6493631353bf9f33d69aa56e8e7667aed7eff0c18",
+      "sourceWidth": 1440,
+      "sourceHeight": 960,
+      "alpha": false,
+      "candidates": [
+        {
+          "src": "/assets/blog/marka-font-secimi-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 7924
+        },
+        {
+          "src": "/assets/blog/marka-font-secimi-720.webp",
+          "width": 720,
+          "height": 480,
+          "bytes": 13968
+        },
+        {
+          "src": "/assets/blog/marka-font-secimi-1080.webp",
+          "width": 1080,
+          "height": 720,
+          "bytes": 25936
+        },
+        {
+          "src": "/assets/blog/marka-font-secimi.webp",
+          "width": 1440,
+          "height": 960,
+          "bytes": 42182
+        }
+      ],
+      "src": "/assets/blog/marka-font-secimi.webp",
+      "width": 1440,
+      "height": 960,
+      "srcset": "/assets/blog/marka-font-secimi-480.webp 480w, /assets/blog/marka-font-secimi-720.webp 720w, /assets/blog/marka-font-secimi-1080.webp 1080w, /assets/blog/marka-font-secimi.webp 1440w"
+    },
+    "/assets/blog/marka-kimligi-kilavuzu-720.jpg": {
+      "originalBytes": 75086,
+      "sourceSha": "1eb84b20b6972082390fe257aced0d88839c60327d4d3e79cea76816fe159ec4",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 720,
+      "sourceHeight": 480,
+      "alpha": false,
+      "candidates": [
+        {
+          "src": "/assets/blog/marka-kimligi-kilavuzu-720.webp",
+          "width": 720,
+          "height": 480,
+          "bytes": 27848
+        }
+      ],
+      "src": "/assets/blog/marka-kimligi-kilavuzu-720.webp",
+      "width": 720,
+      "height": 480,
+      "srcset": "/assets/blog/marka-kimligi-kilavuzu-720.webp 720w"
+    },
+    "/assets/blog/marka-kimligi-kilavuzu.jpg": {
+      "originalBytes": 345439,
+      "sourceSha": "f97cf1efa91cb4f6a6a39666a749e83bc7f59725f09c42864a25553f159634c7",
+      "legacyBytes": 68615,
+      "legacySha": "b027d4e316b2d9fc7b09e52ecd62984c67efb4b2a66221406d8a06eb37577c41",
+      "sourceWidth": 1440,
+      "sourceHeight": 960,
+      "alpha": false,
+      "candidates": [
+        {
+          "src": "/assets/blog/marka-kimligi-kilavuzu-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 16386
+        },
+        {
+          "src": "/assets/blog/marka-kimligi-kilavuzu-720.webp",
+          "width": 720,
+          "height": 480,
+          "bytes": 27848
+        },
+        {
+          "src": "/assets/blog/marka-kimligi-kilavuzu-1080.webp",
+          "width": 1080,
+          "height": 720,
+          "bytes": 52358
+        },
+        {
+          "src": "/assets/blog/marka-kimligi-kilavuzu.webp",
+          "width": 1440,
+          "height": 960,
+          "bytes": 91258
+        }
+      ],
+      "src": "/assets/blog/marka-kimligi-kilavuzu.webp",
+      "width": 1440,
+      "height": 960,
+      "srcset": "/assets/blog/marka-kimligi-kilavuzu-480.webp 480w, /assets/blog/marka-kimligi-kilavuzu-720.webp 720w, /assets/blog/marka-kimligi-kilavuzu-1080.webp 1080w, /assets/blog/marka-kimligi-kilavuzu.webp 1440w"
+    },
+    "/assets/blog/marka-konumlandirmasi-720.jpg": {
+      "originalBytes": 47479,
+      "sourceSha": "3b1bc942e970084e48271903a4ef3a0be51a4f6d6327e1e628ee1dc759bc0527",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 720,
+      "sourceHeight": 480,
+      "alpha": false,
+      "candidates": [
+        {
+          "src": "/assets/blog/marka-konumlandirmasi-720.webp",
+          "width": 720,
+          "height": 480,
+          "bytes": 13516
+        }
+      ],
+      "src": "/assets/blog/marka-konumlandirmasi-720.webp",
+      "width": 720,
+      "height": 480,
+      "srcset": "/assets/blog/marka-konumlandirmasi-720.webp 720w"
+    },
+    "/assets/blog/marka-konumlandirmasi.jpg": {
+      "originalBytes": 213048,
+      "sourceSha": "2e24cecd7af6002084bd3f9d79e8f426ad13986ed7529d64e2ec4491e43c176a",
+      "legacyBytes": 38402,
+      "legacySha": "418b09d140737af0d2f873d22d296f5521de4dabfc7c759ac7ace64bd6c3cf6b",
+      "sourceWidth": 1440,
+      "sourceHeight": 960,
+      "alpha": false,
+      "candidates": [
+        {
+          "src": "/assets/blog/marka-konumlandirmasi-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 8184
+        },
+        {
+          "src": "/assets/blog/marka-konumlandirmasi-720.webp",
+          "width": 720,
+          "height": 480,
+          "bytes": 13516
+        },
+        {
+          "src": "/assets/blog/marka-konumlandirmasi-1080.webp",
+          "width": 1080,
+          "height": 720,
+          "bytes": 24376
+        },
+        {
+          "src": "/assets/blog/marka-konumlandirmasi.webp",
+          "width": 1440,
+          "height": 960,
+          "bytes": 38934
+        }
+      ],
+      "src": "/assets/blog/marka-konumlandirmasi.webp",
+      "width": 1440,
+      "height": 960,
+      "srcset": "/assets/blog/marka-konumlandirmasi-480.webp 480w, /assets/blog/marka-konumlandirmasi-720.webp 720w, /assets/blog/marka-konumlandirmasi-1080.webp 1080w, /assets/blog/marka-konumlandirmasi.webp 1440w"
+    },
+    "/assets/blog/marka-stratejisi-720.jpg": {
+      "originalBytes": 55492,
+      "sourceSha": "b42faa51b88c51dd8560297219b99ea98c1838293938108b8fbf5624a9cdf29c",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 720,
+      "sourceHeight": 480,
+      "alpha": false,
+      "candidates": [
+        {
+          "src": "/assets/blog/marka-stratejisi-720.webp",
+          "width": 720,
+          "height": 480,
+          "bytes": 17356
+        }
+      ],
+      "src": "/assets/blog/marka-stratejisi-720.webp",
+      "width": 720,
+      "height": 480,
+      "srcset": "/assets/blog/marka-stratejisi-720.webp 720w"
+    },
+    "/assets/blog/marka-stratejisi.jpg": {
+      "originalBytes": 237459,
+      "sourceSha": "f7c2a3772fcc518a7faa63ae85d5a2ab601f97c6cdf4241a7bd729cb8303d885",
+      "legacyBytes": 48501,
+      "legacySha": "2bfa9dfbd6e45c5928b4a58e6cca1c68a8881514f61e7a2f6e225dbcef9846a9",
+      "sourceWidth": 1440,
+      "sourceHeight": 960,
+      "alpha": false,
+      "candidates": [
+        {
+          "src": "/assets/blog/marka-stratejisi-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 9192
+        },
+        {
+          "src": "/assets/blog/marka-stratejisi-720.webp",
+          "width": 720,
+          "height": 480,
+          "bytes": 17356
+        },
+        {
+          "src": "/assets/blog/marka-stratejisi-1080.webp",
+          "width": 1080,
+          "height": 720,
+          "bytes": 34572
+        },
+        {
+          "src": "/assets/blog/marka-stratejisi.webp",
+          "width": 1440,
+          "height": 960,
+          "bytes": 57884
+        }
+      ],
+      "src": "/assets/blog/marka-stratejisi.webp",
+      "width": 1440,
+      "height": 960,
+      "srcset": "/assets/blog/marka-stratejisi-480.webp 480w, /assets/blog/marka-stratejisi-720.webp 720w, /assets/blog/marka-stratejisi-1080.webp 1080w, /assets/blog/marka-stratejisi.webp 1440w"
+    },
+    "/assets/blog/rebranding-rehberi-720.jpg": {
+      "originalBytes": 44746,
+      "sourceSha": "24784d65370cb9975929b3300c38b415c0ac1d1af0d62f657eece08564b2c2b7",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 720,
+      "sourceHeight": 480,
+      "alpha": false,
+      "candidates": [
+        {
+          "src": "/assets/blog/rebranding-rehberi-720.webp",
+          "width": 720,
+          "height": 480,
+          "bytes": 14280
+        }
+      ],
+      "src": "/assets/blog/rebranding-rehberi-720.webp",
+      "width": 720,
+      "height": 480,
+      "srcset": "/assets/blog/rebranding-rehberi-720.webp 720w"
+    },
+    "/assets/blog/rebranding-rehberi.jpg": {
+      "originalBytes": 201238,
+      "sourceSha": "160d198e16bd24a9ebb715ac05610983bd9883573aec8518db11d220fdb60e01",
+      "legacyBytes": 38319,
+      "legacySha": "068e0b892ca6d61cde530789c3ba5ac3c5e40d0395f65990da30157adbd5b5ca",
+      "sourceWidth": 1440,
+      "sourceHeight": 960,
+      "alpha": false,
+      "candidates": [
+        {
+          "src": "/assets/blog/rebranding-rehberi-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 7764
+        },
+        {
+          "src": "/assets/blog/rebranding-rehberi-720.webp",
+          "width": 720,
+          "height": 480,
+          "bytes": 14280
+        },
+        {
+          "src": "/assets/blog/rebranding-rehberi-1080.webp",
+          "width": 1080,
+          "height": 720,
+          "bytes": 27438
+        },
+        {
+          "src": "/assets/blog/rebranding-rehberi.webp",
+          "width": 1440,
+          "height": 960,
+          "bytes": 44154
+        }
+      ],
+      "src": "/assets/blog/rebranding-rehberi.webp",
+      "width": 1440,
+      "height": 960,
+      "srcset": "/assets/blog/rebranding-rehberi-480.webp 480w, /assets/blog/rebranding-rehberi-720.webp 720w, /assets/blog/rebranding-rehberi-1080.webp 1080w, /assets/blog/rebranding-rehberi.webp 1440w"
+    },
+    "/assets/blog/sosyal-medya-gorsel-kimlik-720.jpg": {
+      "originalBytes": 73414,
+      "sourceSha": "649370855100e439153e1ea039819f24629b4e640de71e9f750784b3d9a964bc",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 720,
+      "sourceHeight": 480,
+      "alpha": false,
+      "candidates": [
+        {
+          "src": "/assets/blog/sosyal-medya-gorsel-kimlik-720.webp",
+          "width": 720,
+          "height": 480,
+          "bytes": 22736
+        }
+      ],
+      "src": "/assets/blog/sosyal-medya-gorsel-kimlik-720.webp",
+      "width": 720,
+      "height": 480,
+      "srcset": "/assets/blog/sosyal-medya-gorsel-kimlik-720.webp 720w"
+    },
+    "/assets/blog/sosyal-medya-gorsel-kimlik.jpg": {
+      "originalBytes": 304827,
+      "sourceSha": "a3a4dc69cc76dee2d4c49365a6ff2489c3d685547aea614c6b55c1797b41c805",
+      "legacyBytes": 70788,
+      "legacySha": "25eaecf9ad0c81c10b039e67c11e5d3e05793b6d65b001b528de0569980c904b",
+      "sourceWidth": 1440,
+      "sourceHeight": 960,
+      "alpha": false,
+      "candidates": [
+        {
+          "src": "/assets/blog/sosyal-medya-gorsel-kimlik-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 13448
+        },
+        {
+          "src": "/assets/blog/sosyal-medya-gorsel-kimlik-720.webp",
+          "width": 720,
+          "height": 480,
+          "bytes": 22736
+        },
+        {
+          "src": "/assets/blog/sosyal-medya-gorsel-kimlik-1080.webp",
+          "width": 1080,
+          "height": 720,
+          "bytes": 44568
+        },
+        {
+          "src": "/assets/blog/sosyal-medya-gorsel-kimlik.webp",
+          "width": 1440,
+          "height": 960,
+          "bytes": 78146
+        }
+      ],
+      "src": "/assets/blog/sosyal-medya-gorsel-kimlik.webp",
+      "width": 1440,
+      "height": 960,
+      "srcset": "/assets/blog/sosyal-medya-gorsel-kimlik-480.webp 480w, /assets/blog/sosyal-medya-gorsel-kimlik-720.webp 720w, /assets/blog/sosyal-medya-gorsel-kimlik-1080.webp 1080w, /assets/blog/sosyal-medya-gorsel-kimlik.webp 1440w"
+    },
+    "/assets/blog/sosyal-medya-icerik-plani-720.jpg": {
+      "originalBytes": 85145,
+      "sourceSha": "8333223e1038c40b28e605449096624680c6afec6b61a797b2e4b615c332e63f",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 720,
+      "sourceHeight": 480,
+      "alpha": false,
+      "candidates": [
+        {
+          "src": "/assets/blog/sosyal-medya-icerik-plani-720.webp",
+          "width": 720,
+          "height": 480,
+          "bytes": 34104
+        }
+      ],
+      "src": "/assets/blog/sosyal-medya-icerik-plani-720.webp",
+      "width": 720,
+      "height": 480,
+      "srcset": "/assets/blog/sosyal-medya-icerik-plani-720.webp 720w"
+    },
+    "/assets/blog/sosyal-medya-icerik-plani.jpg": {
+      "originalBytes": 367673,
+      "sourceSha": "b3d07b6ddb339841de76b224db1ae59dcbda71743872362159ea3fdded7b6903",
+      "legacyBytes": 80700,
+      "legacySha": "e8a45bfa17503a4c50815b3f80a81921661559af2c3a1f5f371973ac48e989ac",
+      "sourceWidth": 1440,
+      "sourceHeight": 960,
+      "alpha": false,
+      "candidates": [
+        {
+          "src": "/assets/blog/sosyal-medya-icerik-plani-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 19178
+        },
+        {
+          "src": "/assets/blog/sosyal-medya-icerik-plani-720.webp",
+          "width": 720,
+          "height": 480,
+          "bytes": 34104
+        },
+        {
+          "src": "/assets/blog/sosyal-medya-icerik-plani-1080.webp",
+          "width": 1080,
+          "height": 720,
+          "bytes": 62858
+        },
+        {
+          "src": "/assets/blog/sosyal-medya-icerik-plani.webp",
+          "width": 1440,
+          "height": 960,
+          "bytes": 103860
+        }
+      ],
+      "src": "/assets/blog/sosyal-medya-icerik-plani.webp",
+      "width": 1440,
+      "height": 960,
+      "srcset": "/assets/blog/sosyal-medya-icerik-plani-480.webp 480w, /assets/blog/sosyal-medya-icerik-plani-720.webp 720w, /assets/blog/sosyal-medya-icerik-plani-1080.webp 1080w, /assets/blog/sosyal-medya-icerik-plani.webp 1440w"
+    },
+    "/assets/c63ac.png": {
+      "originalBytes": 605954,
+      "sourceSha": "6cc12da9cbf0ba36563666bacc1eaf1195d2dc1f7990396786d4300193fbc265",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 1254,
+      "sourceHeight": 843,
+      "alpha": false,
+      "candidates": [
+        {
+          "src": "/assets/c63ac-640.webp",
+          "width": 640,
+          "height": 430,
+          "bytes": 13640
+        },
+        {
+          "src": "/assets/c63ac.webp",
+          "width": 1254,
+          "height": 843,
+          "bytes": 35114
+        }
+      ],
+      "src": "/assets/c63ac.webp",
+      "width": 1254,
+      "height": 843,
+      "srcset": "/assets/c63ac-640.webp 640w, /assets/c63ac.webp 1254w"
+    },
+    "/assets/cb432.png": {
+      "originalBytes": 13036918,
+      "sourceSha": "de4e6f8cd745d53d8c0ccaf28d6fab51eb2c81a9dfe3f159a72ea8cfd5ecb35a",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 3276,
+      "sourceHeight": 4096,
+      "alpha": true,
+      "candidates": [
+        {
+          "src": "/assets/cb432-400.webp",
+          "width": 400,
+          "height": 500,
+          "bytes": 176458
+        },
+        {
+          "src": "/assets/cb432.webp",
+          "width": 800,
+          "height": 1000,
+          "bytes": 670732
+        }
+      ],
+      "src": "/assets/cb432.webp",
+      "width": 800,
+      "height": 1000,
+      "srcset": "/assets/cb432-400.webp 400w, /assets/cb432.webp 800w"
+    },
+    "/assets/ddc02.png": {
+      "originalBytes": 524046,
+      "sourceSha": "744779b515aaa3e60486dfdbd505a65c7da3fc2d39dfb104866d9659de1dd329",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 1450,
+      "sourceHeight": 1174,
+      "alpha": true,
+      "candidates": [
+        {
+          "src": "/assets/ddc02.webp",
+          "width": 256,
+          "height": 207,
+          "bytes": 19840
+        }
+      ],
+      "src": "/assets/ddc02.webp",
+      "width": 256,
+      "height": 207,
+      "srcset": "/assets/ddc02.webp 256w"
+    },
+    "/assets/eb0e7.png": {
+      "originalBytes": 1162739,
+      "sourceSha": "5a7ca9c4bfa2f2b2bda678c88445d3a990205a900ee03365b7a0b18ae28fc3f1",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 2172,
+      "sourceHeight": 724,
+      "alpha": true,
+      "candidates": [
+        {
+          "src": "/assets/eb0e7-768.webp",
+          "width": 768,
+          "height": 256,
+          "bytes": 54528
+        },
+        {
+          "src": "/assets/eb0e7-1440.webp",
+          "width": 1440,
+          "height": 480,
+          "bytes": 139886
+        },
+        {
+          "src": "/assets/eb0e7.webp",
+          "width": 2172,
+          "height": 724,
+          "bytes": 255600
+        }
+      ],
+      "src": "/assets/eb0e7.webp",
+      "width": 2172,
+      "height": 724,
+      "srcset": "/assets/eb0e7-768.webp 768w, /assets/eb0e7-1440.webp 1440w, /assets/eb0e7.webp 2172w"
+    },
+    "/assets/f7187.png": {
+      "originalBytes": 2899289,
+      "sourceSha": "86a7389ef933040eed885181cca5f6bfe6997b768e8641bdd6481f9dac580614",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 1792,
+      "sourceHeight": 2358,
+      "alpha": false,
+      "candidates": [
+        {
+          "src": "/assets/f7187-640.webp",
+          "width": 640,
+          "height": 842,
+          "bytes": 130648
+        },
+        {
+          "src": "/assets/f7187.webp",
+          "width": 1280,
+          "height": 1684,
+          "bytes": 359576
+        }
+      ],
+      "src": "/assets/f7187.webp",
+      "width": 1280,
+      "height": 1684,
+      "srcset": "/assets/f7187-640.webp 640w, /assets/f7187.webp 1280w"
+    },
+    "/assets/f8f35.png": {
+      "originalBytes": 4719510,
+      "sourceSha": "8c1032a67c41e16906e195c5de0449ae9b319550fc2fa5907ed9832923f3d5a1",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 1998,
+      "sourceHeight": 1502,
+      "alpha": true,
+      "candidates": [
+        {
+          "src": "/assets/f8f35-480.webp",
+          "width": 480,
+          "height": 361,
+          "bytes": 20266
+        },
+        {
+          "src": "/assets/f8f35-960.webp",
+          "width": 960,
+          "height": 722,
+          "bytes": 52092
+        },
+        {
+          "src": "/assets/f8f35.webp",
+          "width": 1440,
+          "height": 1083,
+          "bytes": 89664
+        }
+      ],
+      "src": "/assets/f8f35.webp",
+      "width": 1440,
+      "height": 1083,
+      "srcset": "/assets/f8f35-480.webp 480w, /assets/f8f35-960.webp 960w, /assets/f8f35.webp 1440w"
+    },
+    "/assets/sufle/ai-poc.png": {
+      "originalBytes": 301233,
+      "sourceSha": "3a512ed08cc6746f359f4f65d59e3a6b128724588fb879f8cc5f48e8e8560920",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 627,
+      "sourceHeight": 792,
+      "alpha": true,
+      "candidates": [
+        {
+          "src": "/assets/sufle/ai-poc-320.webp",
+          "width": 320,
+          "height": 404,
+          "bytes": 90458
+        },
+        {
+          "src": "/assets/sufle/ai-poc.webp",
+          "width": 627,
+          "height": 792,
+          "bytes": 215378
+        }
+      ],
+      "src": "/assets/sufle/ai-poc.webp",
+      "width": 627,
+      "height": 792,
+      "srcset": "/assets/sufle/ai-poc-320.webp 320w, /assets/sufle/ai-poc.webp 627w"
+    },
+    "/assets/sufle/architecting-on-aws.png": {
+      "originalBytes": 339640,
+      "sourceSha": "02e2b0074b933c290c36b2d8c9768cd0f690084a76601c5b4e22139fbc46a709",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 1080,
+      "sourceHeight": 1080,
+      "alpha": true,
+      "candidates": [
+        {
+          "src": "/assets/sufle/architecting-on-aws-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 52698
+        },
+        {
+          "src": "/assets/sufle/architecting-on-aws.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 131764
+        }
+      ],
+      "src": "/assets/sufle/architecting-on-aws.webp",
+      "width": 640,
+      "height": 640,
+      "srcset": "/assets/sufle/architecting-on-aws-320.webp 320w, /assets/sufle/architecting-on-aws.webp 640w"
+    },
+    "/assets/sufle/aws-business-enablement.png": {
+      "originalBytes": 2375302,
+      "sourceSha": "775a7eb1f6b2d364b74bcd663ed8f0a3b78b01d431701b0e6ea51166b8ceae33",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 2160,
+      "sourceHeight": 2160,
+      "alpha": true,
+      "candidates": [
+        {
+          "src": "/assets/sufle/aws-business-enablement-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 81738
+        },
+        {
+          "src": "/assets/sufle/aws-business-enablement.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 297024
+        }
+      ],
+      "src": "/assets/sufle/aws-business-enablement.webp",
+      "width": 640,
+      "height": 640,
+      "srcset": "/assets/sufle/aws-business-enablement-320.webp 320w, /assets/sufle/aws-business-enablement.webp 640w"
+    },
+    "/assets/sufle/aws-local-zone.png": {
+      "originalBytes": 142655,
+      "sourceSha": "64e0d52a40e3fca66be293af25e27913f6c8b2daaf93b4c569bcb07ede6dc1aa",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 750,
+      "sourceHeight": 1313,
+      "alpha": true,
+      "candidates": [
+        {
+          "src": "/assets/sufle/aws-local-zone-320.webp",
+          "width": 320,
+          "height": 560,
+          "bytes": 58910
+        },
+        {
+          "src": "/assets/sufle/aws-local-zone.webp",
+          "width": 640,
+          "height": 1120,
+          "bytes": 151850
+        }
+      ],
+      "src": "/assets/sufle/aws-local-zone.webp",
+      "width": 640,
+      "height": 1120,
+      "srcset": "/assets/sufle/aws-local-zone-320.webp 320w, /assets/sufle/aws-local-zone.webp 640w"
+    },
+    "/assets/sufle/startup-aws-advantages.png": {
+      "originalBytes": 318808,
+      "sourceSha": "86992d11f93a0297bb51ecf2fa971727d174c7255d0f66ea536b267538242056",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 1200,
+      "sourceHeight": 1200,
+      "alpha": true,
+      "candidates": [
+        {
+          "src": "/assets/sufle/startup-aws-advantages-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 38184
+        },
+        {
+          "src": "/assets/sufle/startup-aws-advantages.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 103668
+        }
+      ],
+      "src": "/assets/sufle/startup-aws-advantages.webp",
+      "width": 640,
+      "height": 640,
+      "srcset": "/assets/sufle/startup-aws-advantages-320.webp 320w, /assets/sufle/startup-aws-advantages.webp 640w"
+    },
+    "/assets/sufle/startup-benefits.png": {
+      "originalBytes": 356651,
+      "sourceSha": "b631360008a5114cbf42463f6be74a197193fbba8d3e90b81ca19da4b52955cf",
+      "legacyBytes": 0,
+      "legacySha": null,
+      "sourceWidth": 1080,
+      "sourceHeight": 1350,
+      "alpha": true,
+      "candidates": [
+        {
+          "src": "/assets/sufle/startup-benefits-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 43852
+        },
+        {
+          "src": "/assets/sufle/startup-benefits.webp",
+          "width": 640,
+          "height": 800,
+          "bytes": 119898
+        }
+      ],
+      "src": "/assets/sufle/startup-benefits.webp",
+      "width": 640,
+      "height": 800,
+      "srcset": "/assets/sufle/startup-benefits-320.webp 320w, /assets/sufle/startup-benefits.webp 640w"
+    }
+  }
+}

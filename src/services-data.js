@@ -40,9 +40,9 @@ export const services = [
 ];
 
 export const categories = [
-  { title: 'Branding & Creative', description: 'Markanızın karakterini ve görsel dünyasını oluşturuyoruz.', services: ['marka-kimligi', 'grafik-tasarim'], icon: '3ecd0.png' },
-  { title: 'Digital Design & Development', description: 'Kullanıcı odaklı ve etkileyici dijital deneyimler tasarlıyoruz.', services: ['ui-ux', 'mobil-uygulama', 'web-tasarim'], icon: 'ddc02.png' },
-  { title: 'Marketing & Growth', description: 'Markanızın görünürlüğünü artıran ve büyümesini destekleyen çözümler üretiyoruz.', services: ['sosyal-medya', 'dijital-pazarlama'], icon: '1c0b9.png' },
+  { title: 'Branding & Creative', description: 'Markanızın karakterini ve görsel dünyasını oluşturuyoruz.', services: ['marka-kimligi', 'grafik-tasarim'], icon: '3ecd0.webp' },
+  { title: 'Digital Design & Development', description: 'Kullanıcı odaklı ve etkileyici dijital deneyimler tasarlıyoruz.', services: ['ui-ux', 'mobil-uygulama', 'web-tasarim'], icon: 'ddc02.webp' },
+  { title: 'Marketing & Growth', description: 'Markanızın görünürlüğünü artıran ve büyümesini destekleyen çözümler üretiyoruz.', services: ['sosyal-medya', 'dijital-pazarlama'], icon: '1c0b9.webp' },
 ];
 
 export const advantages = [

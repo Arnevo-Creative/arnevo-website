@@ -12,3 +12,4 @@ dist/
 
 # Original generated covers stay local; web versions are in public/assets/blog/.
 artifacts/blog-images/*.png
+artifacts/image-originals/

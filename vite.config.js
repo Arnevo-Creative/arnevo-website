@@ -8,6 +8,7 @@ import { generateBlogPages, renderBlogContent } from './src/blog/render.js';
 import { catalogServices } from './src/service-catalog/data.js';
 import { generateServicePages, renderServiceMenu } from './src/service-catalog/render.js';
 import { renderFooter } from './src/render-footer.js';
+import { renderOptimizedImages } from './src/render-images.js';
 
 const root = new URL('./', import.meta.url);
 const file = path => fileURLToPath(new URL(path, root));
@@ -58,10 +59,10 @@ export default defineConfig({
         ...renderContactContent(),
         ...renderBlogContent(),
       };
-      const rendered = html.replace(/<!-- arnevo:([\w-]+) -->/g, (marker, name) => {
+      const rendered = renderOptimizedImages(html.replace(/<!-- arnevo:([\w-]+) -->/g, (marker, name) => {
         if (!(name in partials)) throw new Error(`Unknown Arnevo partial: ${name}`);
         return partials[name];
-      });
+      }), base);
       if (base === '/') return rendered;
       // Shared components are injected after asset processing. Prefix their URLs too,
       // while leaving URLs already rewritten by Vite untouched.
@@ -72,6 +73,10 @@ export default defineConfig({
         .replace(/("image":")(\/[^"\s]+)/g, (_, prefix, url) => prefix + withBase(url));
     },
     async handleHotUpdate({ file: changed, server }) {
+      if (changed.endsWith('/src/image-manifest.json')) {
+        await server.restart();
+        return [];
+      }
       if (changed.includes('/src/service-catalog/')) {
         await server.restart();
         return [];

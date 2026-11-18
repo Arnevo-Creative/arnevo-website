@@ -1,0 +1,20 @@
+{
+  "unused": ["48ed3.png", "7a683.png", "cc332.png", "sufle-cover.png"],
+  "assets": {
+    "0586f.png": { "widths": [480, 960, 1440], "quality": 90 },
+    "09788.png": { "widths": [640, 960, 1576], "quality": 90 },
+    "12d90.png": { "widths": [80], "quality": 88 },
+    "1c0b9.png": { "widths": [192], "lossless": true },
+    "3ecd0.png": { "widths": [192], "lossless": true },
+    "5efb8.png": { "widths": [640, 1111], "quality": 90 },
+    "61966.png": { "widths": [640, 1280], "quality": 90 },
+    "963df.png": { "widths": [640, 1254], "quality": 90 },
+    "ac4f7.png": { "widths": [160, 320, 640, 1254], "quality": 90 },
+    "c63ac.png": { "widths": [640, 1254], "quality": 88 },
+    "cb432.png": { "widths": [400, 800], "lossless": true },
+    "ddc02.png": { "widths": [256], "lossless": true },
+    "eb0e7.png": { "widths": [768, 1440, 2172], "quality": 90 },
+    "f7187.png": { "widths": [640, 1280], "quality": 88 },
+    "f8f35.png": { "widths": [480, 960, 1440], "quality": 90 }
+  }
+}

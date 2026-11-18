@@ -3,7 +3,7 @@ import { readdirSync, readFileSync } from 'node:fs';
 export const blogCategories = [
   { id: 'grafik-tasarim', label: 'Grafik Tasarım' },
   { id: 'sosyal-medya', label: 'Sosyal Medya' },
-  { id: 'branding', label: 'Branding' },
+  { id: 'branding', label: 'Markalaşma' },
   { id: 'kurumsal-kimlik', label: 'Kurumsal Kimlik' },
 ];
 export const publishedDate = '2026-11-15';

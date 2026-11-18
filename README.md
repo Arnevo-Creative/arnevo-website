@@ -104,7 +104,7 @@ Deneyim ve marka sayısı bilgileri işletme sahibinin sağladığı içeriktir.
 ## Genişletilmiş hizmet kataloğu ve açılır menü
 
 - Sekiz kategori altında 59 ayrı hizmet: `src/service-catalog/groups/*.json`.
-- `Design & Branding`, kullanıcının başlıksız verdiği ilk hizmet grubunun adıdır. Hizmet adları verilen İngilizce adlarla, açıklamalar Türkçe olarak tutulur.
+- İlk hizmet grubunun adı “Tasarım ve Markalaşma”dır. Sekiz kategori ve hizmet adları Türkçe olarak sunulur; Google Ads, Shopify, TikTok, LinkedIn, SEO ve LLM gibi marka adları ve teknik kısaltmalar korunur. Mevcut sayfa adresleri, kategori kimlikleri ve form değerleri aynı kaldığından eski bağlantılar çalışmaya devam eder. Menü, footer, detay sayfaları, metaveri ve iletişim seçenekleri aynı katalogdan üretilir.
 - `src/service-catalog/data.js`: katalog doğrulaması ve eski bağlantı eşlemeleri.
 - `src/service-catalog/render.js`: mega menü, katalog bölümleri, iletişim formu seçenekleri ve ortak detay şablonu.
 - `/hizmetler/{slug}` rotasındaki sayfalar Vite başlarken veya derlemede `hizmetler/{slug}/index.html` olarak üretilir. İçerikleri değiştirmek için üretilen HTML yerine kategori JSON dosyalarını düzenleyin.

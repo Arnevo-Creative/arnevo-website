@@ -184,6 +184,26 @@
   object-position: center top;
   box-shadow: 0 0 4px #0004;
 }
+
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: scroll(root block)) and (animation-range: 0px 720px) {
+    .hero-stickers,
+    .chrome-word img {
+      animation: hero-parallax linear both;
+      animation-timeline: scroll(root block);
+      animation-range: 0px 720px;
+    }
+
+    .hero-stickers { --parallax-offset: clamp(6px, 1.25vw, 18px); }
+    .chrome-word img { --parallax-offset: clamp(-36px, -2.5vw, -12px); }
+  }
+}
+
+@keyframes hero-parallax {
+  from { translate: 0 0; }
+  to { translate: 0 var(--parallax-offset); }
+}
+
 @media (min-width: 761px) and (max-width: 1100px) {
   .hero-stickers { transform: scale(.72); }
 }
@@ -216,4 +236,151 @@
     font-size: 17px;
     margin-bottom: 12px;
   }
+}
+
+@font-face {
+  font-family: Capriola;
+  src: url('/assets/references/capriola.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+}
+
+.references {
+  --reference-gap: 60px;
+  position: relative;
+  padding-block: clamp(56px, 7.222vw, 104px) 24px;
+  background: var(--ink);
+  color: white;
+}
+.references-window {
+  max-width: 1920px;
+  margin-inline: auto;
+  overflow: hidden;
+  mix-blend-mode: luminosity;
+}
+.reference-logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 24px var(--reference-gap);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.reference-logos > li {
+  flex: none;
+  position: relative;
+}
+.reference-logos img { max-width: none; }
+.reference-logos-copy,
+.references-toggle { display: none; }
+
+.reference-shipentegra {
+  width: 334.519px;
+  height: 60px;
+  overflow: hidden;
+}
+.reference-shipentegra img { position: absolute; }
+.shipentegra-name { left: 19.15%; top: 21.71%; }
+.shipentegra-mark-base { left: .58%; top: 28.62%; }
+.shipentegra-mark-top { left: .39%; top: 1.17%; }
+.shipentegra-mark-detail {
+  left: .03%;
+  top: 0;
+  mask: url('/assets/references/6425a.svg') 1.201px .704px no-repeat;
+}
+.reference-alfabemy {
+  display: flex;
+  align-items: center;
+  gap: 8.95px;
+  font-size: 43.893px;
+  font-weight: 800;
+  letter-spacing: -1.3168px;
+}
+.reference-alfabemy img {
+  background: white;
+  border-radius: 10.848px;
+}
+.reference-otelz {
+  width: 139.762px;
+  height: 56px;
+  overflow: hidden;
+  padding-top: 5.785px;
+}
+.reference-maarif,
+.reference-pabli {
+  display: flex;
+  align-items: flex-start;
+}
+.reference-maarif { gap: 5.906px; }
+.reference-maarif-mark {
+  position: relative;
+  width: 54.544px;
+  height: 57.73px;
+  overflow: hidden;
+}
+.reference-maarif-mark img {
+  position: absolute;
+  width: 220.44%;
+  height: 138.85%;
+}
+.reference-maarif-name {
+  margin-top: 11.75px;
+  font: 700 38px Capriola, sans-serif;
+  letter-spacing: -2.66px;
+  white-space: nowrap;
+}
+.reference-maarif-name span { color: #fcbd16; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .references-animated .references-track {
+    display: flex;
+    width: max-content;
+    animation: reference-scroll 90s linear infinite;
+  }
+  .references-animated .reference-logos {
+    display: flex;
+    flex: none;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding-right: var(--reference-gap);
+  }
+  .references-paused .references-track { animation-play-state: paused; }
+  .references-toggle:not([hidden]) {
+    position: absolute;
+    top: max(8px, calc(clamp(56px, 7.222vw, 104px) - 42px));
+    right: clamp(20px, 4vw, 60px);
+    display: grid;
+    place-items: center;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #ffffff50;
+    border-radius: 50%;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+  }
+  .references-toggle span {
+    width: 8px;
+    height: 10px;
+    border-inline: 2px solid currentColor;
+  }
+  .references-toggle[aria-pressed='true'] span {
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    border: 5px solid transparent;
+    border-right: 0;
+    border-left: 8px solid currentColor;
+  }
+}
+
+@keyframes reference-scroll {
+  to { transform: translateX(-50%); }
+}
+
+@media (max-width: 760px) {
+  .references { --reference-gap: 42px; }
+  .reference-logos > li { zoom: .65; }
 }

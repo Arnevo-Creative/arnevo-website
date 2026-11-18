@@ -13,14 +13,42 @@ export function renderServiceMenu(currentSlug = '') {
   return `<div class="services-mega" id="services-menu"><div class="mega-top"><div><span class="mega-label">Arnevo / Hizmetler</span><p>Fikirden uygulamaya, birlikte.</p></div><a href="/hizmetler">Tüm hizmetler ${arrow}</a></div><div class="mega-grid">${serviceGroups.map(group=>`<details class="mega-group" open><summary>${escape(group.title)}<span class="mega-group-count">${group.services.length}</span></summary><ul>${groupServices(group).map(service=>`<li><a href="${serviceURL(service)}"${service.slug===currentSlug?' aria-current="page"':''}>${escape(service.title)}</a></li>`).join('')}</ul></details>`).join('')}</div><div class="mega-bottom"><span>Projeniz için nereden başlayacağınızı birlikte belirleyelim.</span><a href="/iletisim">Projenizi Konuşalım ${arrow}</a></div></div>`;
 }
 
-export function renderCatalogCategories() {
-  return serviceGroups.map((group,index)=>`<a class="catalog-category" href="#group-${group.id}"><span class="catalog-number">${number(index)} /</span><h3>${escape(group.title)}</h3><p>${escape(group.intro)}</p><span class="catalog-category-bottom">${group.services.length} hizmet ${arrow}</span></a>`).join('');
-}
+const categoryImages = {
+  'design-branding': '/assets/f7187.webp',
+  'digital-marketing': '/assets/blog/marka-stratejisi.jpg',
+  'social-media-management': '/assets/0586f.webp',
+  'seo-visibility': '/assets/blog/gorsel-hiyerarsi.jpg',
+  production: '/assets/f8f35.webp',
+  development: '/assets/09788.webp',
+  'strategy-consulting': '/assets/blog/marka-konumlandirmasi.jpg',
+  'ai-machine-learning': '/assets/sufle/ai-poc.webp',
+  'data-analytics': '/assets/blog/carousel-tasarimi.jpg',
+  'cloud-cybersecurity': '/assets/sufle/architecting-on-aws.webp'
+};
+
 export function renderCatalogIndex() {
-  return serviceGroups.map((group,index)=>`<a href="#group-${group.id}"><span>${number(index)}</span>${escape(group.title)}</a>`).join('');
+  return serviceGroups.map(group => `<a href="#group-${group.id}">${escape(group.title)}</a>`).join('');
 }
 export function renderCatalogGroups() {
-  return serviceGroups.map((group,index)=>`<section class="catalog-group" id="group-${group.id}" aria-labelledby="group-title-${group.id}"><div class="catalog-group-heading"><p class="overline">${number(index)} / ${group.services.length} hizmet</p><h3 id="group-title-${group.id}">${escape(group.title)}</h3><p>${escape(group.description)}</p></div><ul class="catalog-service-list">${groupServices(group).map(service=>`<li>${Object.entries(legacyServices).filter(([,slug])=>slug===service.slug).map(([id])=>`<span class="catalog-legacy-anchor" id="${id}"></span>`).join('')}<a href="${serviceURL(service)}"><span class="catalog-service-copy"><strong>${escape(service.title)}</strong><span>${escape(service.description)}</span></span>${arrow}</a></li>`).join('')}</ul></section>`).join('');
+  return serviceGroups.map(group => {
+    const image = categoryImages[group.id];
+    const entries = groupServices(group).map(service => {
+      const anchors = Object.entries(legacyServices)
+        .filter(([, slug]) => slug === service.slug)
+        .map(([id]) => `<span class="catalog-legacy-anchor" id="${id}"></span>`).join('');
+      return `<li>${anchors}<a href="${serviceURL(service)}">${escape(service.title)}${arrow}</a></li>`;
+    }).join('');
+    return `<section class="catalog-group" id="group-${group.id}" aria-labelledby="group-title-${group.id}">
+      <div class="catalog-group-intro">
+        <div class="catalog-group-heading">
+          <h3 id="group-title-${group.id}">${escape(group.title)}</h3>
+          <p>${escape(group.description)}</p>
+        </div>
+        ${image ? `<div class="catalog-group-art"><img src="${image}" alt="" loading="lazy" decoding="async"></div>` : ''}
+      </div>
+      <ul class="catalog-service-list">${entries}</ul>
+    </section>`;
+  }).join('');
 }
 
 export function renderServicePage(service) {

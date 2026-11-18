@@ -21,17 +21,17 @@
   font-size: 15px;
   font-weight: 600;
   line-height: 1.5;
-  transition: background .2s, color .2s, border-color .2s;
+  transition: background-color .3s cubic-bezier(.25, 1, .5, 1), color .3s cubic-bezier(.25, 1, .5, 1), border-color .3s cubic-bezier(.25, 1, .5, 1);
 }
 .button > span { font-size: 24px; line-height: 1; }
 .button-mint { background: var(--surface-mint); color: var(--ink); }
-.button-mint:hover { background: #fff; }
+.button-mint:is(:hover, :focus-visible) { background: #fff; }
 .button-light-outline { border-color: #779496; color: #fff; }
-.button-light-outline:hover { background: #ffffff14; border-color: #fff; }
+.button-light-outline:is(:hover, :focus-visible) { background: #ffffff14; border-color: #fff; }
 .button-outline { border-color: #a2babb; color: var(--ink); }
-.button-outline:hover { background: var(--ink); border-color: var(--ink); color: #fff; }
+.button-outline:is(:hover, :focus-visible) { background: var(--ink); border-color: var(--ink); color: #fff; }
 .button-dark { background: var(--ink); color: #fff; }
-.button-dark:hover { background: var(--muted); }
+.button-dark:is(:hover, :focus-visible) { background: var(--muted); }
 .breadcrumbs { display: flex; gap: 14px; font-size: 12px; color: #a0babc; }
 .breadcrumbs a:hover { color: white; }
 

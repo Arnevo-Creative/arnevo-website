@@ -21,8 +21,7 @@
 .post-meta { display:flex;align-items:center;flex-wrap:wrap;gap:10px;font-size:11px;line-height:1.5;color:var(--blog-secondary);margin:22px 0 13px;font-weight:500; }
 .featured-copy .post-meta { margin:0 0 16px; }
 .read-link { display:inline-flex;align-items:center;gap:12px;font-size:14px;font-weight:600;margin-top:25px; }
-.read-link>span { display:inline-flex;align-items:center;justify-content:center;flex:0 0 28px;width:28px;height:28px;border:1px solid currentColor;border-radius:50%;background:transparent;font-size:16px;line-height:1;transition:transform .2s; }
-.featured-post:hover .read-link>span,.blog-card-link:hover .read-link>span { transform:translateX(2px); }
+.read-link>span { display:inline-flex;align-items:center;justify-content:center;flex:0 0 28px;width:28px;height:28px;font-size:16px;line-height:1; }
 .blog-library { padding:100px 0 120px; }
 .blog-library-heading { display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:42px; }
 .blog-library-heading .overline { color:var(--blog-secondary);margin-bottom:20px; }
@@ -109,4 +108,4 @@
   .article-body { font-size:17px; }.article-body .article-intro { font-size:19px;line-height:1.75; }.article-body section { margin-top:35px;scroll-margin-top:100px; }.article-body h2 { font-size:27px;line-height:1.2;margin-bottom:20px; }.article-body p { margin-top:18px; }.article-body ul { padding-left:20px; }.article-takeaway { padding:24px;margin-top:35px; }.article-takeaway p { font-size:20px;line-height:1.55; }.article-end { flex-wrap:wrap;font-size:11px;gap:12px; }
   .article-cta { padding:45px 0; }.article-cta>.container { display:block; }.article-cta .overline { font-size:10px; }.article-cta h2 { font-size:35px; }.article-cta p:not(.overline) { font-size:16px; }.article-cta-actions { margin-top:28px;gap:20px; }.related-posts { padding:55px 0; }.related-posts h2 { font-size:32px; }
 }
-@media(prefers-reduced-motion:reduce){.featured-image img,.blog-card-image img,.read-link>span,.blog-filters button{transition:none}}
+@media(prefers-reduced-motion:reduce){.featured-image img,.blog-card-image img,.blog-filters button{transition:none}}

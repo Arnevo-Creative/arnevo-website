@@ -1,6 +1,8 @@
 /* A generous, rounded sitemap panel, shared by every page. */
 .site-footer { padding: 24px; background: #fff; color: #fff; }
 .footer-panel { max-width: 1600px; margin-inline: auto; padding: 64px; border-radius: 36px; background: var(--ink); }
+main:has(> .contact) + .site-footer { padding-top: 0; }
+main:has(> .contact) + .site-footer .footer-panel { padding-top: clamp(64px, 8.333vw, 120px); }
 .footer-layout { display: grid; grid-template-columns: minmax(270px, .95fr) minmax(0, 2.65fr); gap: 64px; }
 .footer-brand { display: flex; align-items: center; gap: 6.84px; width: max-content; max-width: 100%; min-height: 32px; }
 .footer-brand img { flex: 0 0 auto; max-width: none; }

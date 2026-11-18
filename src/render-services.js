@@ -1,13 +1,12 @@
 import { advantages, packages, process, contactHref } from './services-data.js';
 import { catalogServices, serviceGroups } from './service-catalog/data.js';
-import { escape, renderCatalogCategories, renderCatalogIndex, renderCatalogGroups } from './service-catalog/render.js';
+import { escape, renderCatalogIndex, renderCatalogGroups } from './service-catalog/render.js';
 const number = index => String(index+1).padStart(2,'0');
 const arrow = '<span aria-hidden="true">↗</span>';
 export function renderServicesContent() {
   return {
     'catalog-count': String(catalogServices.length),
     'catalog-group-count': String(serviceGroups.length),
-    'categories': renderCatalogCategories(),
     'service-index': renderCatalogIndex(),
     'service-rows': renderCatalogGroups(),
     'advantages': advantages.map((item,index)=>`<article><span class="item-number">${number(index)} /</span><h3>${escape(item.title)}</h3><p>${escape(item.description)}</p></article>`).join(''),

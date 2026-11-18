@@ -1,0 +1,106 @@
+{
+  "id": "cloud-cybersecurity",
+  "title": "Bulut ve Siber Güvenlik",
+  "intro": "Bulut altyapınızı işletim ihtiyaçlarına ve güvenlik önceliklerinize uygun biçimde planlıyoruz.",
+  "description": "Buluta taşıma, sistem entegrasyonu, yönetilen hizmetler ve savunma odaklı güvenlik çalışmaları için mevcut yapınıza uygun yol haritası hazırlıyoruz.",
+  "process": [
+    "Mevcut ortamı, iş sürekliliği gereksinimlerini ve riskleri inceleriz.",
+    "Hedef mimariyi, sorumlulukları ve geçiş adımlarını belirleriz.",
+    "Değişiklikleri kontrollü biçimde uygular ve doğrularız.",
+    "İzleme, bakım ve devir süreçlerini dokümante ederiz."
+  ],
+  "services": [
+    {
+      "slug": "cloud-migration",
+      "title": "Buluta Geçiş",
+      "tagline": "Uygulama ve verilerin buluta kontrollü biçimde taşınması için geçiş planı oluşturuyoruz.",
+      "description": "Uygulama ve verilerin buluta kontrollü biçimde taşınması için geçiş planı oluşturuyoruz.",
+      "why": "Bağımlılıkları ve kesinti toleransını anlayarak taşımanın sırasını belirler, geri dönüş senaryolarını geçişten önce planlarız.",
+      "scope": [
+        "Altyapı envanteri",
+        "Bağımlılık haritası",
+        "Hedef ortam planı",
+        "Geçiş ve geri dönüş senaryosu",
+        "Geçiş sonrası kontroller"
+      ],
+      "deliverables": [
+        "Buluta geçiş yol haritası",
+        "Kararlaştırılan taşıma adımları",
+        "Doğrulama ve devir notları"
+      ],
+      "faq": [
+        "Geçiş sırasında kesinti olur mu?",
+        "Kesinti ihtimali sistemlere göre değişir. Kabul edilebilir süreyi ve geçiş penceresini planlama aşamasında netleştiririz."
+      ]
+    },
+    {
+      "slug": "cloud-integration",
+      "title": "Bulut Entegrasyonu",
+      "tagline": "Bulut servislerini mevcut uygulamalarınız ve veri akışlarınızla birleştiriyoruz.",
+      "description": "Bulut servislerini mevcut uygulamalarınız ve veri akışlarınızla birleştiriyoruz.",
+      "why": "Bağlantıların sürdürülebilir olması için veri aktarımını, kimlik doğrulamayı ve hata yönetimini birlikte tasarlarız.",
+      "scope": [
+        "Sistem ve servis incelemesi",
+        "Entegrasyon mimarisi",
+        "Kimlik ve erişim planı",
+        "Veri akışları",
+        "İzleme ve testler"
+      ],
+      "deliverables": [
+        "Entegrasyon tasarımı",
+        "Kararlaştırılan servis bağlantıları",
+        "Test ve işletim dokümantasyonu"
+      ],
+      "faq": [
+        "Melez altyapılarla çalışabilir miyiz?",
+        "Mevcut ve hedef ortamların erişim ve bağlantı koşullarını değerlendirerek melez bir düzen planlayabiliriz."
+      ]
+    },
+    {
+      "slug": "managed-cloud-services",
+      "title": "Yönetilen Bulut Hizmetleri",
+      "tagline": "Bulut ortamı için izleme, bakım ve işletim süreçlerini düzenliyoruz.",
+      "description": "Bulut ortamı için izleme, bakım ve işletim süreçlerini düzenliyoruz.",
+      "why": "Operasyonun güvenilir olması için sorumlulukların, alarm eşiklerinin ve müdahale sürelerinin netleşmesi gerekir. Hizmet kapsamını bu ihtiyaçlara göre belirleriz.",
+      "scope": [
+        "Bulut ortamı değerlendirmesi",
+        "İzleme ve uyarılar",
+        "Bakım ve güncelleme planı",
+        "Yedekleme kontrolleri",
+        "Maliyet ve kapasite raporları"
+      ],
+      "deliverables": [
+        "İşletim kontrol listesi",
+        "Kararlaştırılan izleme kurulumu",
+        "Bakım ve destek kapsamı"
+      ],
+      "faq": [
+        "Destek saatleri nasıl belirleniyor?",
+        "Destek penceresi, müdahale kapsamı ve sorumluluklar işletim ihtiyaçlarına göre teklif aşamasında belirlenir."
+      ]
+    },
+    {
+      "slug": "cybersecurity",
+      "title": "Siber Güvenlik",
+      "tagline": "Dijital altyapınızın risklerini değerlendirip koruyucu güvenlik önlemlerini önceliklendiriyoruz.",
+      "description": "Dijital altyapınızın risklerini değerlendirip koruyucu güvenlik önlemlerini önceliklendiriyoruz.",
+      "why": "Önce korunması gereken sistemleri ve bilgi varlıklarını belirleriz. Erişim kontrolleri, izleme ve olaylara hazırlık açısından iyileştirme alanlarını çıkarırız.",
+      "scope": [
+        "Varlık ve risk değerlendirmesi",
+        "Erişim politikalarının gözden geçirilmesi",
+        "Güvenli yapılandırma planı",
+        "Güvenlik izleme ihtiyaçları",
+        "Olay müdahale hazırlığı"
+      ],
+      "deliverables": [
+        "Risk ve öncelik özeti",
+        "Güvenlik iyileştirme yol haritası",
+        "Takip ve doğrulama planı"
+      ],
+      "faq": [
+        "Güvenlik çalışmasına nereden başlanır?",
+        "İş açısından kritik sistemleri ve mevcut kontrolleri belirleyen bir keşifle başlayabiliriz."
+      ]
+    }
+  ]
+}

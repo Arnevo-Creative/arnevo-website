@@ -1,0 +1,152 @@
+{
+  "id": "data-analytics",
+  "title": "Veri ve Analitik",
+  "intro": "Dağınık veriyi ekiplerin kullanabileceği karar altyapısına dönüştürüyoruz.",
+  "description": "Veri toplama, depolama, raporlama ve ileri analitiği aynı iş hedefi etrafında ele alıyoruz.",
+  "process": [
+    "Veri kaynaklarını, karar ihtiyaçlarını ve erişim koşullarını belirleriz.",
+    "Metrikleri ve kullanılacak veri mimarisini birlikte planlarız.",
+    "Veri akışlarını, raporları veya modelleri doğrularız.",
+    "Kullanım ve güncelleme sorumluluklarıyla birlikte teslim ederiz."
+  ],
+  "services": [
+    {
+      "slug": "data-engineering",
+      "title": "Veri Mühendisliği",
+      "tagline": "Farklı sistemlerden gelen veriyi güvenilir akışlarla bir araya getiriyoruz.",
+      "description": "Farklı sistemlerden gelen veriyi güvenilir akışlarla bir araya getiriyoruz.",
+      "why": "Kaynaklar, veri hacmi ve güncellenme ihtiyacı akışın mimarisini belirler. Önce kritik veri kaynaklarını ve kalite kontrollerini netleştiririz.",
+      "scope": [
+        "Kaynak envanteri",
+        "Veri akışı mimarisi",
+        "Dönüşüm kuralları",
+        "Kalite kontrolleri",
+        "İzleme ve hata yönetimi"
+      ],
+      "deliverables": [
+        "Veri akışı tasarımı",
+        "Kararlaştırılan veri hatları",
+        "İşletim dokümantasyonu"
+      ],
+      "faq": [
+        "Mevcut araçlarımızla çalışabilir miyiz?",
+        "Erişimler ve veri formatları uygun olduğunda mevcut araçları kullanarak başlayabiliriz."
+      ]
+    },
+    {
+      "slug": "data-warehousing",
+      "title": "Veri Ambarı",
+      "tagline": "Raporlamaya temel olacak merkezi bir veri ambarı tasarlıyoruz.",
+      "description": "Raporlamaya temel olacak merkezi bir veri ambarı tasarlıyoruz.",
+      "why": "Raporların aynı tanımlara dayanması için veri modelini iş ekipleriyle birlikte kurgular, depolama ve sorgu ihtiyaçlarını ölçeriz.",
+      "scope": [
+        "Raporlama gereksinimleri",
+        "Veri modeli",
+        "Kaynak bağlantıları",
+        "Geçmiş veri aktarımı",
+        "Erişim ve maliyet takibi"
+      ],
+      "deliverables": [
+        "Ambar mimarisi",
+        "Kararlaştırılan veri modelleri",
+        "Yükleme ve kullanım rehberi"
+      ],
+      "faq": [
+        "Bulut kullanmak zorunlu mu?",
+        "Barındırma seçimini mevcut altyapı, güvenlik ve işletim ihtiyaçlarına göre yapabiliriz."
+      ]
+    },
+    {
+      "slug": "data-visualization",
+      "title": "Veri Görselleştirme",
+      "tagline": "Karmaşık verileri okunabilir grafik ve gösterge panolarına dönüştürüyoruz.",
+      "description": "Karmaşık verileri okunabilir grafik ve gösterge panolarına dönüştürüyoruz.",
+      "why": "Görselleştirme, karar vermek için gereken karşılaştırmayı görünür kılmalı. Gösterge ve grafik türlerini kullanıcının sorularına göre seçeriz.",
+      "scope": [
+        "Kullanıcı ve karar senaryoları",
+        "Gösterge seçimi",
+        "Görsel hiyerarşi",
+        "Panel veya rapor tasarımı",
+        "Okunabilirlik kontrolü"
+      ],
+      "deliverables": [
+        "Görselleştirme taslağı",
+        "Kararlaştırılan grafik ve panolar",
+        "Kullanım notları"
+      ],
+      "faq": [
+        "Mevcut panoları iyileştirebilir miyiz?",
+        "Evet. Önce göstergeleri ve kullanıcı akışını inceler, gerekli değişiklikleri mevcut araçta planlarız."
+      ]
+    },
+    {
+      "slug": "business-intelligence",
+      "title": "İş Zekâsı",
+      "tagline": "Ekiplerin ortak göstergelerle çalışabileceği iş zekâsı raporları ve panoları kuruyoruz.",
+      "description": "Ekiplerin ortak göstergelerle çalışabileceği iş zekâsı raporları ve panoları kuruyoruz.",
+      "why": "İş zekâsının temeli tutarlı metriklerdir. Tanımları belgeleyip raporları ekiplerin karar döngülerine uygun biçimde düzenleriz.",
+      "scope": [
+        "Metrik tanımları",
+        "Raporlama ihtiyaçları",
+        "Panel tasarımı",
+        "Yetki ve paylaşım düzeni",
+        "Ekip eğitimi"
+      ],
+      "deliverables": [
+        "Metrik sözlüğü",
+        "Kararlaştırılan iş zekâsı panoları",
+        "Ekip kullanım rehberi"
+      ],
+      "faq": [
+        "Farklı ekipler aynı paneli kullanmak zorunda mı?",
+        "Roller ve ihtiyaçlar ayrışıyorsa ortak metriklerden beslenen farklı görünümler oluşturabiliriz."
+      ]
+    },
+    {
+      "slug": "customer-segmentation",
+      "title": "Müşteri Segmentasyonu",
+      "tagline": "Müşterileri davranış ve ihtiyaçlarına göre anlamlı gruplara ayırıyoruz.",
+      "description": "Müşterileri davranış ve ihtiyaçlarına göre anlamlı gruplara ayırıyoruz.",
+      "why": "Segmentlerin işe yaraması için hangi kararları destekleyeceği en başta belirlenir. Grupları erişilebilir veri ve analiz koşullarıyla değerlendiririz.",
+      "scope": [
+        "Kullanım amacının belirlenmesi",
+        "Müşteri verisi incelemesi",
+        "Segment kuralları",
+        "Segment profilleri",
+        "Uygulama ve güncelleme planı"
+      ],
+      "deliverables": [
+        "Segmentasyon yaklaşımı",
+        "Müşteri segment profilleri",
+        "Öncelikli kullanım önerileri"
+      ],
+      "faq": [
+        "Hangi müşteri verileri gerekir?",
+        "Kullanım amacına göre işlem geçmişi, davranış verisi veya izinli müşteri özellikleri değerlendirilebilir."
+      ]
+    },
+    {
+      "slug": "predictive-analytics",
+      "title": "Tahmine Dayalı Analitik",
+      "tagline": "Talep, davranış veya operasyonel sonuçlara ilişkin tahmin modelleri geliştiriyoruz.",
+      "description": "Talep, davranış veya operasyonel sonuçlara ilişkin tahmin modelleri geliştiriyoruz.",
+      "why": "Tahminin değeri kararları ne kadar iyileştirdiğiyle ölçülür. Geçmiş veriyi ve basit karşılaştırma modellerini kullanarak performansı sınarız.",
+      "scope": [
+        "Tahmin hedefi ve ölçütler",
+        "Geçmiş veri analizi",
+        "Model adayları",
+        "Geriye dönük doğrulama",
+        "Yayın ve izleme planı"
+      ],
+      "deliverables": [
+        "Tahmin prototipi",
+        "Doğrulama sonuçları",
+        "Kullanım ve takip planı"
+      ],
+      "faq": [
+        "Tahminler kesin sonuç verir mi?",
+        "Tahminler belirsizlik içerir. Hata payını ve modelin kullanılabileceği koşulları sonuçlarla birlikte açıklarız."
+      ]
+    }
+  ]
+}

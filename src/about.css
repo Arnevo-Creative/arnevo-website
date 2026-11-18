@@ -52,7 +52,7 @@
 .practice-card p { font-size:16px;line-height:1.7;color:var(--text-secondary);margin:20px 0 30px; }
 .practice-link { display:inline-flex;gap:20px;align-items:center;font-size:13px;font-weight:600;margin-top:auto; }
 .practice-link>span { font-size:24px;line-height:1;transition:transform .2s; }
-.practice-card:hover h3 { color:var(--studio-violet); }.practice-card:hover .practice-link>span { transform:translate(3px,-3px); }
+.practice-card:hover h3 { color:var(--studio-violet); }
 .studio-text-link { display:inline-flex;align-items:center;gap:24px;font-size:15px;border-bottom:1px solid #96b1b3;padding-bottom:10px; }
 .studio-text-link>span { font-size:25px;line-height:1; }
 .studio-text-link:hover { color:var(--studio-violet);border-color:var(--studio-violet); }

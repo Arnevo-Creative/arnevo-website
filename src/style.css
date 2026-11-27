@@ -476,12 +476,16 @@
   }
   .home-intro-logo {
     position: absolute;
+    display: grid;
+    grid-template-columns: 172.389fr 82.1929fr;
+    align-items: center;
+    gap: 2.618%;
     width: clamp(220px, 34vw, 460px);
-    height: auto;
     transform-origin: top left;
     animation: home-intro-logo 1.55s both;
   }
-  .home-intro-active .header .brand-full {
+  .home-intro-logo img { width: 100%; height: auto; }
+  .home-intro-active .header .brand-compact {
     visibility: hidden;
     animation: home-intro-header-logo 1.55s steps(1, end) forwards;
   }

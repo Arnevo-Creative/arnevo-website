@@ -27,13 +27,6 @@ const servicesDropdown = document.querySelector('.services-dropdown');
 const servicesSummary = servicesDropdown.querySelector(':scope > summary');
 const mobileQuery = window.matchMedia('(max-width: 760px)');
 
-function updateHeader() {
-  header.classList.toggle('header-scrolled', window.scrollY > 24);
-}
-updateHeader();
-window.addEventListener('scroll', updateHeader, { passive: true });
-window.addEventListener('pageshow', updateHeader);
-
 const faq = document.querySelector('.faq:has(details[name="home-faq"])');
 if (faq && typeof faq.animate === 'function') {
   const questions = [...faq.querySelectorAll('details[name="home-faq"]')];
@@ -95,7 +88,7 @@ if (intro && root.classList.contains('home-intro-active')) {
     finishIntro();
   } else {
     const logo = intro.querySelector('.home-intro-logo');
-    const headerLogo = header.querySelector('.brand-full');
+    const headerLogo = header.querySelector('.brand-compact');
     const positionLogo = () => {
       const bounds = headerLogo.getBoundingClientRect();
       intro.style.setProperty('--intro-logo-x', `${bounds.left}px`);
@@ -117,22 +110,64 @@ if (intro && root.classList.contains('home-intro-active')) {
   }
 }
 
-function closeServiceMenu() { servicesDropdown.open = false; }
+let serviceHoverTimeout;
+function closeServiceMenu() {
+  clearTimeout(serviceHoverTimeout);
+  servicesDropdown.open = false;
+}
+
+servicesSummary.addEventListener('pointerenter', event => {
+  if (event.pointerType !== 'mouse' || mobileQuery.matches) return;
+  clearTimeout(serviceHoverTimeout);
+  servicesDropdown.open = true;
+});
+servicesDropdown.addEventListener('pointerenter', () => clearTimeout(serviceHoverTimeout));
+servicesDropdown.addEventListener('pointerleave', event => {
+  if (event.pointerType !== 'mouse' || mobileQuery.matches) return;
+  clearTimeout(serviceHoverTimeout);
+  serviceHoverTimeout = setTimeout(() => {
+    if (!servicesDropdown.querySelector(':focus-visible')) closeServiceMenu();
+  }, 240);
+});
+
 function closeMenu() {
   toggle.setAttribute('aria-expanded', 'false');
   toggle.setAttribute('aria-label', 'Menüyü aç');
   header.classList.remove('menu-open');
+  navigation.inert = mobileQuery.matches;
   closeServiceMenu();
 }
-function resetGroups() {
-  document.querySelectorAll('.mega-group').forEach(group => { group.open = !mobileQuery.matches; });
+const serviceCategories = [...servicesDropdown.querySelectorAll('.mega-categories button')];
+const servicePanels = servicesDropdown.querySelector('.mega-panels');
+const reducedMenuMotion = matchMedia('(prefers-reduced-motion: reduce)');
+let servicePanelAnimation;
+for (const category of serviceCategories) {
+  category.addEventListener('click', () => {
+    if (category.getAttribute('aria-pressed') === 'true') return;
+    for (const option of serviceCategories) {
+      const selected = option === category;
+      option.setAttribute('aria-pressed', String(selected));
+      document.getElementById(option.getAttribute('aria-controls')).hidden = !selected;
+    }
+    servicePanels.scrollTop = 0;
+    servicePanelAnimation?.cancel();
+    if (!reducedMenuMotion.matches) {
+      const links = servicePanels.querySelector('.mega-panel:not([hidden]) ul');
+      servicePanelAnimation = links.animate(
+        [{ opacity: .35, transform: 'translateY(4px)' }, { opacity: 1, transform: 'translateY(0)' }],
+        { duration: 220, easing: 'cubic-bezier(.22, 1, .36, 1)' }
+      );
+    }
+  });
 }
-resetGroups();
+
+navigation.inert = mobileQuery.matches;
 toggle.addEventListener('click', () => {
   const isOpen = toggle.getAttribute('aria-expanded') !== 'true';
   toggle.setAttribute('aria-expanded', String(isOpen));
   toggle.setAttribute('aria-label', isOpen ? 'Menüyü kapat' : 'Menüyü aç');
   header.classList.toggle('menu-open', isOpen);
+  navigation.inert = !isOpen && mobileQuery.matches;
   if (!isOpen) closeServiceMenu();
 });
 navigation.addEventListener('click', event => { if (event.target.closest('a')) closeMenu(); });
@@ -148,7 +183,7 @@ document.addEventListener('pointerdown', event => { if (!header.contains(event.t
 header.addEventListener('focusout', event => {
   if (event.relatedTarget && !header.contains(event.relatedTarget)) closeServiceMenu();
 });
-mobileQuery.addEventListener('change', () => { closeMenu();resetGroups(); });
+mobileQuery.addEventListener('change', closeMenu);
 const cover = document.querySelector('.maarif');
 if (cover) new ResizeObserver(([entry]) => {
   cover.style.setProperty('--cover-scale', entry.contentRect.width / 590);

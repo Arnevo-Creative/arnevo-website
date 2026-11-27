@@ -10,7 +10,36 @@ const groupServices = group => catalogServices.filter(service => service.groupId
 const bullets = items => `<ul>${items.map(item=>`<li>${escape(item)}</li>`).join('')}</ul>`;
 
 export function renderServiceMenu(currentSlug = '') {
-  return `<div class="services-mega" id="services-menu"><div class="mega-top"><div><span class="mega-label">Arnevo / Hizmetler</span><p>Fikirden uygulamaya, birlikte.</p></div><a href="/hizmetler">Tüm hizmetler ${arrow}</a></div><div class="mega-grid">${serviceGroups.map(group=>`<details class="mega-group" open><summary>${escape(group.title)}<span class="mega-group-count">${group.services.length}</span></summary><ul>${groupServices(group).map(service=>`<li><a href="${serviceURL(service)}"${service.slug===currentSlug?' aria-current="page"':''}>${escape(service.title)}</a></li>`).join('')}</ul></details>`).join('')}</div><div class="mega-bottom"><span>Projeniz için nereden başlayacağınızı birlikte belirleyelim.</span><a href="/iletisim">Projenizi Konuşalım ${arrow}</a></div></div>`;
+  const activeId = catalogServices.find(service => service.slug === currentSlug)?.groupId ?? serviceGroups[0].id;
+  const categories = serviceGroups.map(group => `
+    <button type="button" aria-pressed="${group.id === activeId}" aria-controls="menu-${group.id}">
+      ${escape(group.title)}
+    </button>`).join('');
+  const panels = serviceGroups.map(group => `
+    <section class="mega-panel" id="menu-${group.id}" aria-label="${escape(group.title)}"${group.id === activeId ? '' : ' hidden'}>
+      <ul>${groupServices(group).map(service => `
+        <li><a href="${serviceURL(service)}"${service.slug === currentSlug ? ' aria-current="page"' : ''}>
+          ${escape(service.title)}
+        </a></li>`).join('')}</ul>
+    </section>`).join('');
+
+  return `<div class="services-mega" id="services-menu">
+    <div class="mega-top"><strong>Hizmetler</strong><a href="/hizmetler">Tüm hizmetler</a></div>
+    <div class="mega-grid">
+      <div class="mega-categories" role="group" aria-label="Hizmet kategorileri">${categories}</div>
+      <div class="mega-panels">
+        <div>${panels}</div>
+        <a class="mega-featured-project" href="/#select-plus">
+          <span class="mega-featured-copy">
+            <span>Öne çıkan çalışma</span>
+            <strong>Select+</strong>
+            <span>Projeyi incele</span>
+          </span>
+          <img src="/assets/0586f.webp" alt="" loading="lazy">
+        </a>
+      </div>
+    </div>
+  </div>`;
 }
 
 const categoryImages = {
